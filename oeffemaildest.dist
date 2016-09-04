@@ -1,0 +1,3 @@
+<?php
+$oeffemaildest=['an@email.address', 'another@email.address'];
+?>
