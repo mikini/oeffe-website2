@@ -108,70 +108,6 @@
 		</p>
               </div>
             </div>
-<!--
-            <div class="row">
-                <div class="col-sm-4 portfolio-item">
-                    <a href="#portfolioModal1" class="portfolio-link" data-toggle="modal">
-                        <div class="caption">
-                            <div class="caption-content">
-                                <i class="fa fa-search-plus fa-3x"></i>
-                            </div>
-                        </div>
-                        <img src="img/portfolio/cabin.png" class="img-responsive" alt="">
-                    </a>
-                </div>
-                <div class="col-sm-4 portfolio-item">
-                    <a href="#portfolioModal2" class="portfolio-link" data-toggle="modal">
-                        <div class="caption">
-                            <div class="caption-content">
-                                <i class="fa fa-search-plus fa-3x"></i>
-                            </div>
-                        </div>
-                        <img src="img/portfolio/cake.png" class="img-responsive" alt="">
-                    </a>
-                </div>
-                <div class="col-sm-4 portfolio-item">
-                    <a href="#portfolioModal3" class="portfolio-link" data-toggle="modal">
-                        <div class="caption">
-                            <div class="caption-content">
-                                <i class="fa fa-search-plus fa-3x"></i>
-                            </div>
-                        </div>
-                        <img src="img/portfolio/circus.png" class="img-responsive" alt="">
-                    </a>
-                </div>
-                <div class="col-sm-4 portfolio-item">
-                    <a href="#portfolioModal4" class="portfolio-link" data-toggle="modal">
-                        <div class="caption">
-                            <div class="caption-content">
-                                <i class="fa fa-search-plus fa-3x"></i>
-                            </div>
-                        </div>
-                        <img src="img/portfolio/game.png" class="img-responsive" alt="">
-                    </a>
-                </div>
-                <div class="col-sm-4 portfolio-item">
-                    <a href="#portfolioModal5" class="portfolio-link" data-toggle="modal">
-                        <div class="caption">
-                            <div class="caption-content">
-                                <i class="fa fa-search-plus fa-3x"></i>
-                            </div>
-                        </div>
-                        <img src="img/portfolio/safe.png" class="img-responsive" alt="">
-                    </a>
-                </div>
-                <div class="col-sm-4 portfolio-item">
-                    <a href="#portfolioModal6" class="portfolio-link" data-toggle="modal">
-                        <div class="caption">
-                            <div class="caption-content">
-                                <i class="fa fa-search-plus fa-3x"></i>
-                            </div>
-                        </div>
-                        <img src="img/portfolio/submarine.png" class="img-responsive" alt="">
-                    </a>
-                </div>
-            </div>
--->
         </div>
     </section>
 
@@ -244,18 +180,19 @@
 	    </div>
 	    <div class="row">
 	      <div class="col-lg-12 text-center" id="indmeld-form" style="display:none">
-		<form method="post" action="mail.php">
+		<form method="post" action="mail.php" onsubmit="return validateSignup();">
+		  <input type="hidden" name="type" value="indmeld">
 		  <p>
-		    Fornavn: <br><input type="text" name="fornavn"><br>
-		    Efternavn: <br><input type="text" name="efternavn"><br>
-		    Adresse: <br><input type="text" name="adresse"><br>
-		    Postnummer: <br><input type="text" name="postnummer" value="6700"><br>
-		    By: <br><input type="text" name="by" value="Esbjerg"><br>
-		    Telefonnummer: <br><input type="text" name="telefon"><br>
-		    Email: <br><input type="text" name="email"><br>
-		    Foretrukket udleveringssted:<br>
-		    <input type="radio" name="udlevering" value="Midtgård" checked>Midtgård</input>
-		    <input type="radio" name="udlevering" value="Esbjerg Ø">Esbjerg Ø</input>
+		    <label>Fornavn: <br><input type="text" id="fornavn" name="fornavn"></label><br>
+		    <label>Efternavn: <br><input type="text" id="efternavn" name="efternavn"></label><br>
+		    <label>Adresse: <br><input type="text" id="adresse" name="adresse"></label><br>
+		    <label>Postnummer: <br><input type="text" id="postnummer" name="postnummer" value="6700"></label><br>
+		    <label>By: <br><input type="text" id="by" name="by" value="Esbjerg"></label><br>
+		    <label>Telefonnummer: <br><input type="text" id="telefon" name="telefon"></label><br>
+		    <label>Email: <br><input type="text" id="email" name="email"></label><br>
+		    <label>Foretrukket udleveringssted:<br>
+		    <input type="radio" id="foretrukket udlevering" name="foretrukket udlevering" value="Midtgård" checked>Midtgård</input>
+		    <input type="radio" id="foretrukket udlevering" name="foretrukket udlevering"value="Esbjerg Ø">Esbjerg Ø</input></label>
 		    <br>
 		    <input type="submit" value="Bliv medlem">
 		  </p>
@@ -282,8 +219,12 @@
 	    <div class="row">
 	      <div class="col-lg-12 text-center" id="bestil-form" style="display:none">
 		<form method="post" action="mail.php" onsubmit="return validateOrder();">
+		  <input type="hidden" name="type" value="bestil">
+		  <input type="hidden" id="udleveringsdato" name="udleveringsdato" value="">
+		  <input type="hidden" id="lukkedato" name="lukkedato" value="">
 		  <p>
 		    <label>Medlemsnummer: <input type="text" id="medlemsnummer" name="medlemsnummer" size="5"></label><br>
+		    <label>Kvitteringsemail: <input type="text" id="kvitteringsemail" name="kvitteringsemail" size="20"></label><br>
 		    <div id="dynItems"></div>
 		    <br>
 		    <h3>Samlet pris <input type="text" value="0" style="width: 5em" id="samlet pris" name="samlet pris" readonly>kr.</h3>
@@ -738,6 +679,26 @@
         document.getElementById('dynItems').appendChild(newItem);
       }
 
+      function validateSignup()
+      {
+        msg="";
+        fields=['fornavn','efternavn','adresse','postnummer','by','telefon','email'];
+        fields.forEach(function(field)
+        {
+          if (document.getElementById(field) && !document.getElementById(field).value)
+            msg+="Feltet '"+field+"' skal udfyldes.\n";
+        });
+
+        if (isNaN(parseInt(document.getElementById('telefon').value)) || document.getElementById('telefon').value.length < 8)
+          msg+="Telefonnummer ugyldigt.";
+														       if (msg.length > 0)
+	{
+          alert("Der mangler informationer, ret venligst følgende:\n\n"+msg);
+	  return false;
+	}
+        return true;
+      }
+
       function validateOrder()
       {
         if (!document.getElementById('medlemsnummer').value)
@@ -748,6 +709,11 @@
         else if (isNaN(parseInt(document.getElementById('medlemsnummer').value)) || document.getElementById('medlemsnummer').value == 0)
         {
           alert("Ugyldigt medlemsnummer. Angiv venligst dit ØFFE-medlemsnummer for at bestille.");
+          return false;
+        }
+        else if (!document.getElementById('kvitteringsemail').value)
+        {
+          alert("Ingen kvitteringsemail angivet. Vi vil gerne sende dig en kvittering med yderligere instruktioner.");
           return false;
         }
         else if (document.getElementById('samlet pris').value==0)
@@ -826,6 +792,8 @@
             week.items.forEach(function(item){addItem(item)});
         });
         calculateTotalPrice();
+        document.getElementById('udleveringsdato').value=formatDate(nextDelivery);
+        document.getElementById('lukkedato').value=formatDate(orderClose);
         document.getElementById('bestil-form').style.display='block';
       }
       else
