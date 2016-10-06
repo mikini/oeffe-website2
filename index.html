@@ -808,7 +808,7 @@
       {
         orderOpen=new Date(pretendDate?pretendDate:Date());
         orderOpen.setDate(nextDelivery.getDate()+1);
-        document.getElementById('bestil-form-header').innerHTML+="Næste udlevering er "+formatDate(nextDelivery)+' (uge '+nextDelivery.getWeek()+').<br>Bestilling af varer til denne udlevering er dog lukket, bestilling til næstkommende udlevering åbner '+formatDate(orderOpen)+'.';
+        document.getElementById('bestil-form-header').innerHTML+="Næste udlevering er <strong>torsdag "+formatDate(nextDelivery)+'</strong> (uge '+nextDelivery.getWeek()+').<br>Bestilling af varer til denne udlevering er dog lukket, bestilling til næstkommende udlevering åbner <strong>'+formatDate(orderOpen)+'</strong>.';
       }
 
     </script>
