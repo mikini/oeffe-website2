@@ -122,15 +122,19 @@
 	    </div>
 	    <div class="row">
               <div class="col-lg-12">
-		<h3>2016-09-26</h3>
+		<h3>2016-10-07</h3>
 		<p>
-		  Som et skridt på vejen mod et mere varieret sortiment er den faste grøntsagspose erstattet af ni lækre grøntsagsvarianter, som kan bestilles i individuelle mængder. Udvalget vil variere ved hver bestilling efter sæson og tilgængelighed. Samtidig er bestillingsfristen forlænget. Se <a href="#bestil">bestilling</a>.
+		  Ny bestillingsprocedure via hjemmesiden er indført. Bestil varer og få beregnet en samlet ordresum på hjemmesiden. Betaling overføres stadig via bankoverførsel. Se <a href="#bestil">bestilling</a>.
 		</p>
 		<p>
 		  <a onclick="var form=getElementById('gammelnyt'); form.style.display=(form.style.display=='none'?'block':'none');">Tidligere nyheder</a>
 		</p>
               </div>
               <div id="gammelnyt" class="col-lg-12" style="display:none">
+		<h3>2016-09-26</h3>
+		<p>
+		  Som et skridt på vejen mod et mere varieret sortiment er den faste grøntsagspose erstattet af ni lækre grøntsagsvarianter, som kan bestilles i individuelle mængder. Udvalget vil variere ved hver bestilling efter sæson og tilgængelighed. Samtidig er bestillingsfristen forlænget. Se <a href="#bestil">bestilling</a>.
+		</p>
 		<h3>2016-09-13</h3>
 		<p>
 		  ØFFE har nu mulighed for at levere havregryn fra Mel Fra Forum til samme pris som de øvrige kornprodukter. Se <a href="#bestil">bestilling</a>.
@@ -310,6 +314,7 @@
                 <div class="col-lg-12 text-center">
                     <!-- To configure the contact form email address, go to mail/contact_me.php and update the email address in the PHP file on line 19. -->
                     <!-- The form should work on most web servers, but if the form is not working you may need to configure your web server differently. -->
+<!--
 		    <h3>Bestyrelse</h3>
 		    <p>
 		      <strong>Formand:</strong> Ligéa Carpentier<br>
@@ -319,6 +324,7 @@
 		      <strong>1. Suppleant:</strong> Catja Kjeldsen<br>
 		      <strong>2. Suppleant:</strong> Renathe M. Hadulla<br>
 		    </p>
+-->
 
 		    <h3 id="vedtægter">Vedtægter</h3>
 		    <p>
@@ -336,7 +342,9 @@
 		    <p>
 		      <strong>Email:</strong> <a href="mailto:oeffesbjerg@gmail.com">oeffesbjerg@gmail.com</a><br>
 		      <strong>Facebook:</strong> <a href="https://www.facebook.com/groups/997317766980298/">facebook.com/groups/997317766980298/</a><br>
-		      <strong>Telefon (brug helst email):</strong> formand Ligea på ?? ?? ?? ??<br>
+<!--
+		      <strong>Telefon:</strong> <br>
+-->
 		    </p>
 <!--
                     <form name="sentMessage" id="contactForm" novalidate>
@@ -670,10 +678,10 @@
       {
         newItem=document.createElement('div');
         if (item.group)
-          newItem.innerHTML='<h3>'+item.group+'</h3>'+(item.description?item.description:"");
+          newItem.innerHTML='<h3>'+item.group+'</h3><p>'+(item.description?item.description:"")+'</p>';
         else
         {
-          newItem.innerHTML='<label><input type="number" min="0" max="10" value="0" style="width: 3em" name="'+item.name+'" id="'+item.name+'" onchange="calculateTotalPrice();" oninput="calculateTotalPrice();"/> '+item.unit+' '+item.name+', '+item.price+' kr.</label><br>';
+          newItem.innerHTML='<p><label><input type="number" min="0" max="10" value="0" style="width: 3em" name="'+item.name+'" id="'+item.name+'" onchange="calculateTotalPrice();" oninput="calculateTotalPrice();"/> '+item.unit+' '+item.name+' á '+item.price+' kr.</label></p>';
           totalPriceItems.push([item.name,item.price]);
         }
         document.getElementById('dynItems').appendChild(newItem);
@@ -783,9 +791,9 @@
       // show form if before saturday
       if (daysTillDelivery>5) //&& daysTillDelivery < 14)
       {
-        orderClose=new Date(pretendDate);
+        orderClose=new Date(pretendDate?pretendDate:Date());
         orderClose.setDate(orderClose.getDate()+daysTillDelivery-6);
-        document.getElementById('bestil-form-header').innerHTML+="Her kan du bestille varer til næste udlevering som er "+formatDate(nextDelivery)+' (uge '+nextDelivery.getWeek()+'). Bestillinger modtages til og med '+formatDate(orderClose)+'.';
+        document.getElementById('bestil-form-header').innerHTML+="Her kan du bestille varer til næste udlevering som er <strong>torsdag "+formatDate(nextDelivery)+'</strong> (uge '+nextDelivery.getWeek()+'). <br>Bestillinger modtages til og med <strong>fredag '+formatDate(orderClose)+'</stromg>.';
         goods.forEach(function(week)
         {
           if (week.week==nextDelivery.getWeek())
