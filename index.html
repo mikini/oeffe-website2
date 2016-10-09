@@ -225,7 +225,7 @@
 		<form method="post" action="mail.php" onsubmit="return validateOrder();">
 		  <input type="hidden" name="type" value="bestil">
 		  <input type="hidden" id="udleveringsdato" name="udleveringsdato" value="">
-		  <input type="hidden" id="lukkedato" name="lukkedato" value="">
+		  <input type="hidden" id="betalingsfrist" name="betalingsfrist" value="">
 		  <p>
 		    <label>Medlemsnummer: <input type="text" id="medlemsnummer" name="medlemsnummer" size="5"></label><br>
 		    <label>Kvitteringsemail: <input type="text" id="kvitteringsemail" name="kvitteringsemail" size="20"></label><br>
@@ -739,6 +739,8 @@
 
         curDate = (new Date(date?date:Date()));
         deltaDeliveryDayOfWeek=deliveryDayOfWeek-curDate.getDay();
+	if (curDate.getDay()==0)
+	  deltaDeliveryDayOfWeek-=7;
         if (curDate.getWeek()%2 == (deliveryWeekEven?0:1)) // is this a delivery week?
           if (deltaDeliveryDayOfWeek >= 0)
             deltaDeliveryWeek = 0;
@@ -747,7 +749,8 @@
         else
             deltaDeliveryWeek = 1;
 
-        var daysTillDelivery = deltaDeliveryWeek*7 + deltaDeliveryDayOfWeek;
+        daysTillDelivery = deltaDeliveryWeek*7 + deltaDeliveryDayOfWeek;
+//        console.log ("deltaDeliveryWeek: "+deltaDeliveryWeek+", deltaDeliveryDayOfWeek:"+deltaDeliveryDayOfWeek+", daysTillDelivery:"+daysTillDelivery);
         return daysTillDelivery;
       }
 
@@ -771,7 +774,10 @@
                    ["2016-09-08 23:59:00","2016-09-08"],
                    ["2016-09-09 00:59:00","2016-09-22"],
                    ["2016-09-10 00:59:00","2016-09-22"],
-                   ["2016-09-17 00:59:00","2016-09-22"]
+                   ["2016-09-17 00:59:00","2016-09-22"],
+                   ["2016-10-09 00:59:00","2016-09-22"],
+                   ["2016-10-10 00:59:00","2016-09-22"],
+                   ["2016-10-11 00:59:00","2016-09-22"],
                ];
       test.forEach(function(date){console.log('in: '+date[0]+', out: '+getNextDeliveryDate(date[0])+', expected: '+date[1]);});
 */
@@ -801,7 +807,7 @@
         });
         calculateTotalPrice();
         document.getElementById('udleveringsdato').value=formatDate(nextDelivery);
-        document.getElementById('lukkedato').value=formatDate(orderClose);
+        document.getElementById('betalingsfrist').value=formatDate(orderClose);
         document.getElementById('bestil-form').style.display='block';
       }
       else

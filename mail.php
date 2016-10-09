@@ -5,7 +5,7 @@ require 'oeffemaildest';
 
 $ALLOWED_SIZE = 100; // will die on POST key/values exceeding this
 $ALLOW_EMPTY_VALUES=false; // die on empty values?
-$EXCLUDE_KEYS=["type", "lukkedato", "kvitteringsemail"]; // Keys to not echo into mail
+$EXCLUDE_KEYS=["type"]; // Keys to not echo into mail
 $VALIDATE_EMAIL_KEYS = [ "email", "kvitteringsemail" ]; // die if key is present and doesn't contain valid email addresses
 
 // catch obvious fakers
@@ -142,11 +142,11 @@ For at effektuere den, og være sikker på at dine varer vil være klar på udle
 
 Dette gøres på en af de måder der er beskrevet på hjemmesiden (se http://www.øffe.dk/#betaling), angiv venligst dit medlemsnummer i overførselsmeddelelsen.
 
-Er betalingen ikke ØFFE i hænde umiddelbart efter bestillingsperioden er lukket (til og med {$securepost['lukkedato']}), kan vi desværre ikke garantere at der vil være varer til dig på udleveringsdagen.
+Er betalingen ikke ØFFE i hænde ved bestillingsperiodens lukning ({$securepost['betalingsfrist']}), kan vi desværre ikke garantere at der vil være varer til dig på udleveringsdagen.
 
 Har du problemer eller spørgsmål, så svar blot på denne email eller spørg evt. i gruppen på Facebook (se http://øffe.dk/#kontakt).
 
-Du har bestilt følgende varer:
+Information om din bestilling:
 
 $data
 
