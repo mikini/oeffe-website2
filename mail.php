@@ -104,6 +104,7 @@ PS: indmeldingen blev foretaget fra IP-adressen $ip med browseren "$agent".
 EOF;
 
   $htmlheadline = "Indmelding modtaget";
+  file_put_contents("mails/indmeld_".date('c').".txt", $staffmsg."\n");
 }
 
 // bestilling
@@ -157,7 +158,7 @@ PS: bestillingen blev foretaget fra IP-adressen $ip med browseren "$agent".
 EOF;
 
   $htmlheadline = "Bestilling modtaget";
-
+  file_put_contents("mails/bestil_".date('c').".txt", $staffmsg."\n");
 }
 else
 {
