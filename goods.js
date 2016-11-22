@@ -92,7 +92,7 @@ var goods=[
     }
     ,{"week":48,
      "items":[
-	 {"group":"Grøntsager"}
+	 {"group":"Grøntsager", "description":"Økologiske og lokale varer fra bl. a. <a href='http://www.vardeaadallam.dk'>Varde Ådal Lam</a>."}
 	,{"name":"Kartofler","unit":"kg.", "price":9}
 	,{"name":"Gulerødder","unit":"kg.", "price":9}
 	,{"name":"Pastinakker","unit":"kg.", "price":9}
@@ -102,11 +102,11 @@ var goods=[
 	,{"name":"Stribede rødbeder","unit":"3 stk.", "price":9}
 	,{"name":"Persille","unit":"bundt.", "price":10}
 	,{"name":"Græskar","unit":"stk.", "price":30}
-        ,{"group":"Æg", "description":"Æggene er størrelse M/L, er gennemlyste og datostemplede som reglerne foreskriver ved detailsalg. Køber man som privat direkte fra producenten er reglerne mindre restriktive."}
+        ,{"group":"Æg", "description":"Størrelsen er M/L, leveres gennemlyste og datostemplede som reglerne foreskriver ved detailsalg. Køber man som privat direkte fra producenten er reglerne mindre restriktive."}
 	,{"name":"Æg, 6 stk","unit":"bakker", "price":20}
 	,{"name":"Æg, 15 stk","unit":"bakker", "price":40}
 	,{"name":"Æg, 30 stk","unit":"bakker", "price":75}
-        ,{"group":"Kornprodukter"}//, "description":"Økologiske, biodynamiske og Demeter-mærkede kornpodukter fra <a href='http://www.melfraforum.dk/'>Mel fra Forum</a>."}
+        ,{"group":"Kornprodukter", "description":"Økologiske, biodynamiske og Demeter-mærkede kornprodukter fra <a href='http://www.melfraforum.dk/'>Mel fra Forum</a>."}
 	,{"name":"Ølandshvede, 1 kg","unit":"poser", "price":22}
 	,{"name":"Fint Ølandshvede, 1 kg","unit":"poser", "price":22}
 	,{"name":"Vårrug - knækkede rugkerner, 1 kg","unit":"poser", "price":22}
@@ -114,6 +114,8 @@ var goods=[
 	,{"name":"Jomfrubygperler, 1 kg","unit":"poser", "price":22}
 	,{"name":"Svedjerug, 1 kg","unit":"poser", "price":22}
 	,{"name":"Havregryn, 1 kg","unit":"poser", "price":22}
+        ,{"group":"Øvrige lækkerier"}
+	,{"name":"æblemost, 2,5 liter","unit":"dunke", "price":50, "description":"dejlig stærk med en smule frugtkød, fra Frederik Rahbeks plantage på <a href='http://www.forumlund.dk/'>Forumlund</a>"}
      ]
     }
 ];
