@@ -233,8 +233,8 @@
 		    <br>
 		    <h3>Samlet pris <input type="text" value="0" style="width: 5em" id="samlet pris" name="samlet pris" readonly>kr.</h3>
 		    <br>
+		    <input type="reset" value="Fortryd">
 		    <input type="submit" value="Bestil">
-		    <input type="reset" value="Nulstil">
 		  </p>
 		  </form>
 	      </div>
@@ -681,7 +681,7 @@
           newItem.innerHTML='<h3>'+item.group+'</h3><p>'+(item.description?item.description:"")+'</p>';
         else
         {
-          newItem.innerHTML='<p><label><input type="number" min="0" max="10" value="0" style="width: 3em" name="'+item.name+'" id="'+item.name+'" onchange="calculateTotalPrice();" oninput="calculateTotalPrice();"/> '+item.unit+' '+item.name+' á '+item.price+' kr.</label></p>';
+          newItem.innerHTML='<p><label><input type="number" min="0" max="10" value="0" style="width: 3em" name="'+item.name+'" id="'+item.name+'" onchange="calculateTotalPrice();" oninput="calculateTotalPrice();"/> '+item.unit+' '+item.name+' á '+item.price+' kr.'+(item.description?'<br>'+item.description:"")+'</label></p>';
           totalPriceItems.push([item.name,item.price]);
         }
         document.getElementById('dynItems').appendChild(newItem);
