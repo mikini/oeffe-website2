@@ -802,7 +802,7 @@
         document.getElementById('bestil-form-header').innerHTML+="Her kan du bestille varer til næste udlevering som er <strong>torsdag "+formatDate(nextDelivery)+'</strong> (uge '+nextDelivery.getWeek()+'). <br>Bestillinger modtages til og med <strong>fredag '+formatDate(orderClose)+'</stromg>.';
         goods.forEach(function(week)
         {
-          if (week.week==nextDelivery.getWeek())
+          if (week.year==nextDelivery.getFullYear() && week.week==nextDelivery.getWeek())
             week.items.forEach(function(item){addItem(item)});
         });
         calculateTotalPrice();
