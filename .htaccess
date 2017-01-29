@@ -1,4 +1,8 @@
-## deny access to oeffemaildest
-<Files ~ "^(oeffemaildest)$">
+# deny access to oeffemaildest
+# contains email destinations for messages
+<Files "oeffemaildest">
   Deny from all
 </Files>
+
+# disable indexes
+Options -Indexes

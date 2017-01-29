@@ -1,0 +1,10 @@
+# Enable HTTP basic authentication
+AuthType Basic
+AuthName "Kun for administratorer"
+AuthBasicProvider file
+AuthUserFile "/etc/apache2/passwd/øffe.dk"
+Require user oeffe
+
+# Enables auto indexes and show latest files first
+Options +Indexes
+IndexOrderDefault Descending Date
