@@ -6,7 +6,7 @@ require 'oeffemaildest';
 $ALLOWED_SIZE = 100; // will die on POST key/values exceeding this
 $ALLOW_EMPTY_VALUES=false; // die on empty values?
 $EXCLUDE_KEYS=["type"]; // Keys to not echo into mail
-$VALIDATE_EMAIL_KEYS = [ "email", "kvitteringsemail" ]; // die if key is present and doesn't contain valid email addresses
+$VALIDATE_EMAIL_KEYS = [ "Email", "Kvitteringsemail" ]; // die if key is present and doesn't contain valid email addresses
 
 // catch obvious fakers
 if (empty($_POST))
@@ -46,7 +46,7 @@ foreach($securepost as $key => $value)
   foreach($EXCLUDE_KEYS as $exkey)
     if($key==$exkey)
       continue 2;
-  $data .= $key;
+  $data .= str_replace('_', ' ', $key);
   for ($i=mb_strlen($key); $i<$maxkeysize; $i++)
     $data .= ' ';
   $data .= ' : ' . $value . "\n";
@@ -61,7 +61,7 @@ $time = date('c', $_SERVER['REQUEST_TIME']);
 if ($securepost['type'] == 'indmeld')
 {
   // Generate mail for ØFFE staffers
-  $staffsubject = '[ØFFE] Ny indmelding: ' . $securepost['fornavn'] . " " . $securepost['efternavn'];
+  $staffsubject = '[ØFFE] Ny indmelding: ' . $securepost['Fornavn'] . " " . $securepost['Efternavn'];
   $staffmsg = <<<EOF
 Hej ØFFE-administrator.
 
@@ -82,10 +82,10 @@ Hilsen
 EOF;
 
   // Generate message for user
-  $useraddress = $securepost['email'];
+  $useraddress = $securepost['Email'];
   $usersubject = '[ØFFE] Velkommen som medlem';
   $usermsg = <<<EOF
-Hej {$securepost['fornavn']}.
+Hej {$securepost['Fornavn']}.
 
 Tak for din indmelding, du er godt på vej til at blive medlem af ØFFE.
 
@@ -111,7 +111,7 @@ EOF;
 else if($securepost['type']=='bestil')
 {
   // Generate mail for ØFFE staffers
-  $staffsubject = '[ØFFE] Ny bestilling fra medlem nr. ' . $securepost['medlemsnummer'];
+  $staffsubject = '[ØFFE] Ny bestilling fra medlem nr. ' . $securepost['Medlemsnummer'];
   $staffmsg = <<<EOF
 Hej ØFFE-administrator.
 
@@ -132,18 +132,18 @@ Hilsen
 EOF;
 
   // Generate message for user
-  $useraddress = $securepost['kvitteringsemail'];
+  $useraddress = $securepost['Kvitteringsemail'];
   $usersubject = '[ØFFE] Kvittering for dine bestilte varer';
   $usermsg = <<<EOF
-Hej ØFFE-medlem nr. {$securepost["medlemsnummer"]}.
+Hej ØFFE-medlem nr. {$securepost["Medlemsnummer"]}.
 
 Tak for din bestilling.
 
-For at effektuere den, og være sikker på at dine varer vil være klar på udleveringsdagen {$securepost['udleveringsdato']}, skal du nu sørge for at betale beløbet på kr. {$securepost['samlet_pris']}.
+For at effektuere den, og være sikker på at dine varer vil være klar på udleveringsdagen {$securepost['Udleveringsdato']}, skal du nu sørge for at betale beløbet på kr. {$securepost['Samlet_pris']}.
 
 Dette gøres på en af de måder der er beskrevet på hjemmesiden (se http://www.øffe.dk/#betaling), angiv venligst dit medlemsnummer i overførselsmeddelelsen.
 
-Er betalingen ikke ØFFE i hænde ved bestillingsperiodens lukning ({$securepost['betalingsfrist']}), kan vi desværre ikke garantere at der vil være varer til dig på udleveringsdagen.
+Er betalingen ikke ØFFE i hænde ved bestillingsperiodens lukning ({$securepost['Betalingsfrist']}), kan vi desværre ikke garantere at der vil være varer til dig på udleveringsdagen.
 
 Har du problemer eller spørgsmål, så svar blot på denne email eller spørg evt. i gruppen på Facebook (se http://øffe.dk/#kontakt).
 
@@ -169,6 +169,7 @@ else
 // Generate page output
 $htmldata = str_replace("\n\n","</p><p>", $usermsg);
 $htmldata = str_replace("\n","<br>", $htmldata);
+//$htmldata = str_replace(" ","&nbsp;", $htmldata);
 
 $htmlheader = <<<EOF
 <!DOCTYPE html>

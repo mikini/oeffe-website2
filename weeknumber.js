@@ -21,3 +21,8 @@ Date.prototype.getWeekYear = function() {
     date.setDate(date.getDate() + 3 - (date.getDay() + 6) % 7);
     return date.getFullYear();
 }
+
+Date.prototype.getDayOfWeek = function() {
+    daynames=['søndag','mandag','tirsdag','onsdag','torsdag','fredag','lørdag'];
+    return daynames[this.getDay()];
+}

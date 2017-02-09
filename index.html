@@ -104,7 +104,7 @@
               <div class="col-lg-12">
 		<p>Økologisk FødevareFællesskab Esbjerg er en forening af forbrugere i Esbjerg og omegn, der ønsker øgede muligheder for at forbruge lokalt producerede økologiske fødevarer.
 		<br>
-		Som medlem har man mulighed for at bestille friske grøntsager og andre varer (pt. æg og kornprodukter) til udlevering hver 14. dag. Udlevering sker på torsdage i lige uger fra ØFFE's fødevarekontrollerede lokaler på <a href="http://midtgaard.esbjergkommune.dk/">Midtgård</a> og snarest fra et udleveringssted i Esbjerg Ø.
+		Som medlem har man mulighed for at bestille friske grøntsager og andre varer (pt. æg og kornprodukter) til udlevering hver 14. dag. Udlevering sker på torsdage i ulige uger fra ØFFE's fødevarekontrollerede lokaler på <a href="http://midtgaard.esbjergkommune.dk/">Midtgård</a> eller et af 3 andre udleveringssteder i Esbjerg.
 		</p>
 		<img style="display: block; margin: 0 auto;" class="img-rounded" src="ØFFE pose, lille.jpg" alt="Eksempel på varer fra ØFFE; persille, kartofler, gulerødder, løg, bolche-bede">
               </div>
@@ -122,16 +122,20 @@
 		</div>
 	    </div>
 	    <div class="row">
-              <div class="col-lg-12">
-		<h3>2016-10-07</h3>
+              <div class="col-lg-12" id="nytnyt">
+		<h3>2017-02-09</h3>
 		<p>
-		  Ny bestillingsprocedure via hjemmesiden er indført. Bestil varer og få beregnet en samlet ordresum på hjemmesiden. Betaling overføres stadig via bankoverførsel. Se <a href="#bestil">bestilling</a>.
+		  Fra og med uge 7 foregår udlevering på torsdage i ulige uger. Derudover er der tilføjet nye udleveringssteder i hhv. Esbjerg V (6710) og Tjæreborg (6731) samt mulighed for at vælge udleveringssted for hver bestilling der foretages. Se <a href="#bestil">bestilling</a>.
 		</p>
 		<p>
 		  <a onclick="var form=getElementById('gammelnyt'); form.style.display=(form.style.display=='none'?'block':'none');">Tidligere nyheder</a>
 		</p>
               </div>
               <div id="gammelnyt" class="col-lg-12" style="display:none">
+		<h3>2016-10-07</h3>
+		<p>
+		  Ny bestillingsprocedure via hjemmesiden er indført. Bestil varer og få beregnet en samlet ordresum på hjemmesiden. Betaling overføres stadig via bankoverførsel. Se <a href="#bestil">bestilling</a>.
+		</p>
 		<h3>2016-09-26</h3>
 		<p>
 		  Som et skridt på vejen mod et mere varieret sortiment er den faste grøntsagspose erstattet af ni lækre grøntsagsvarianter, som kan bestilles i individuelle mængder. Udvalget vil variere ved hver bestilling efter sæson og tilgængelighed. Samtidig er bestillingsfristen forlænget. Se <a href="#bestil">bestilling</a>.
@@ -142,7 +146,7 @@
 		</p>
 		<h3>2016-09-04</h3>
 		<p>
-		  ØFFE har nu en hjemmeside på <a href="http://øffe.tk">øffe.tk</a>.
+		  ØFFE har nu en hjemmeside på <a href="http://øffe.dk">øffe.dk</a>.
 		</p>
 		<h3>2016-01-13</h3>
 		<p>
@@ -184,62 +188,68 @@
 		</div>
 	    </div>
 	    <div class="row">
-	      <div class="col-lg-12 text-center" id="indmeld-form" style="display:none">
-		<form method="post" action="mail.php" onsubmit="return validateSignup();">
-		  <input type="hidden" name="type" value="indmeld">
-		  <p>
-		    <label>Fornavn: <br><input type="text" id="fornavn" name="fornavn"></label><br>
-		    <label>Efternavn: <br><input type="text" id="efternavn" name="efternavn"></label><br>
-		    <label>Adresse: <br><input type="text" id="adresse" name="adresse"></label><br>
-		    <label>Postnummer: <br><input type="text" id="postnummer" name="postnummer" value="6700"></label><br>
-		    <label>By: <br><input type="text" id="by" name="by" value="Esbjerg"></label><br>
-		    <label>Telefonnummer: <br><input type="text" id="telefon" name="telefon"></label><br>
-		    <label>Email: <br><input type="text" id="email" name="email"></label><br>
-		    <label>Foretrukket udleveringssted:<br>
-		    <input type="radio" id="foretrukket udlevering" name="foretrukket udlevering" value="Midtgård" checked>Midtgård</input>
-		    <input type="radio" id="foretrukket udlevering" name="foretrukket udlevering"value="Esbjerg Ø">Esbjerg Ø</input></label>
-		    <br>
-		    <input type="submit" value="Bliv medlem">
-		  </p>
-		  </form>
-	      </div>
+            <div class="col-lg-12 text-center" id="indmeld-form" style="display:none">
+              <form method="post" action="mail.php" onsubmit="return validateSignup();">
+                <input type="hidden" name="type" value="indmeld">
+                <p>
+                  <label>Fornavn: <br><input type="text" id="Fornavn" name="Fornavn"></label><br>
+                  <label>Efternavn: <br><input type="text" id="Efternavn" name="Efternavn"></label><br>
+                  <label>Adresse: <br><input type="text" id="Adresse" name="Adresse"></label><br>
+                  <label>Postnummer: <br><input type="text" id="Postnummer" name="Postnummer" value="6700"></label><br>
+                  <label>By: <br><input type="text" id="By" name="By" value="Esbjerg"></label><br>
+                  <label>Telefonnummer: <br><input type="text" id="Telefon" name="Telefon"></label><br>
+                  <label>Email: <br><input type="text" id="Email" name="Email"></label><br>
+                  <input type="submit" value="Bliv medlem">
+                </p>
+              </form>
             </div>
-	</div>
+          </div>
+        </div>
     </section>
 
     <!-- Bestilling Section -->
     <section id="bestil">
         <div class="container">
-            <div class="row">
-                <div class="col-lg-12 text-center">
-                    <h2>Bestilling</h2>
-                    <hr class="star-primary">
-                </div>
+          <div class="row">
+            <div class="col-lg-12 text-center">
+              <h2>Bestilling</h2>
+              <hr class="star-primary">
             </div>
-	    <div class="row">
-                <div class="col-lg-12 text-center">
-		<p id="bestil-form-header"></p>
-		</div>
-	    </div>
-	    <div class="row">
-	      <div class="col-lg-12 text-center" id="bestil-form" style="display:none">
-		<form method="post" action="mail.php" onsubmit="return validateOrder();">
-		  <input type="hidden" name="type" value="bestil">
-		  <input type="hidden" id="udleveringsdato" name="udleveringsdato" value="">
-		  <input type="hidden" id="betalingsfrist" name="betalingsfrist" value="">
-		  <p>
-		    <label>Medlemsnummer: <input type="text" id="medlemsnummer" name="medlemsnummer" size="5"></label><br>
-		    <label>Kvitteringsemail: <input type="text" id="kvitteringsemail" name="kvitteringsemail" size="20"></label><br>
-		    <div id="dynItems"></div>
-		    <br>
-		    <h3>Samlet pris <input type="text" value="0" style="width: 5em" id="samlet pris" name="samlet pris" readonly>kr.</h3>
-		    <br>
-		    <input type="reset" value="Fortryd">
-		    <input type="submit" value="Bestil">
-		  </p>
-		  </form>
-	      </div>
+          </div>
+          <div class="row">
+            <div class="col-lg-12 text-center">
+                <p id="bestil-form-header"></p>
             </div>
+          </div>
+          <div class="row">
+            <div class="col-lg-12 text-center" id="bestil-form" style="display:none">
+              <form method="post" action="mail.php" onsubmit="return validateOrder();">
+                <input type="hidden" name="type" value="bestil">
+                <input type="hidden" id="Udleveringsdato" name="Udleveringsdato" value="">
+                <input type="hidden" id="Betalingsfrist" name="Betalingsfrist" value="">
+                <p>
+                  <label>Medlemsnummer: <input type="text" id="Medlemsnummer" name="Medlemsnummer" size="5"></label><br>
+                  <label>Kvitteringsemail: <input type="text" id="Kvitteringsemail" name="Kvitteringsemail" size="20"></label><br>
+                  <label>Udleveringssted:
+                    <select id="Udleveringssted" name="Udleveringssted">
+                      <option value="Midtgård - kl. 16:00-17:30 (Ravnsbjergparken 6, 6710 Esbjerg V)" selected>Midtgård - kl. 16:00-17:30 (Ravnsbjergparken 6, 6710 Esbjerg V)</option>
+                      <option value="Esbjerg Ø - kl. 18:00-20:00 (Holger Drachmanns Alle 16, 6700 Esbjerg)">Esbjerg Ø - kl. 18:00-20:00 (Holger Drachmanns Alle 16, 6700 Esbjerg)</option>
+                      <option value="Hjerting - kl. 18:00-20:00 (Styrmandsvænget 236, 6710 Esbjerg V)">Hjerting - kl. 18:00-20:00 (Styrmandsvænget 236, 6710 Esbjerg V)</option>
+                      <option value="Tjæreborg - kl. 17:00-20:00 (Blichers Kro - Krostuen, Tjæreborg Stationsvej 21, 6731 Tjæreborg)">Tjæreborg - kl. 17:00-20:00 (Blichers Kro - Krostuen, Tjæreborg Stationsvej 21, 6731 Tjæreborg)</option>
+                    </select>
+                  </label>
+                  <h3>Samlet pris <input type="text" value="0" style="width: 5em" id="Samlet pris2" name="Samlet pris2" disabled readonly>kr.</h3>
+                  <br>
+                  <div id="dynItems"></div>
+                  <br>
+                  <h3>Samlet pris <input type="text" value="0" style="width: 5em" id="Samlet pris" name="Samlet pris" readonly>kr.</h3>
+                  <br>
+                  <input type="reset" value="Fortryd">
+                  <input type="submit" value="Bestil">
+                </p>
+              </form>
+            </div>
+          </div>
 
             <div class="row">
               <div class="col-lg-12">
@@ -415,7 +425,8 @@
         {
           totalPrice+=document.getElementById(item[0]).value*item[1];
         });
-        document.getElementById('samlet pris').value=totalPrice;
+        document.getElementById('Samlet pris').value=totalPrice;
+        document.getElementById('Samlet pris2').value=totalPrice;
       }
 
       function addItem(item)
@@ -434,41 +445,45 @@
       function validateSignup()
       {
         msg="";
-        fields=['fornavn','efternavn','adresse','postnummer','by','telefon','email'];
+        fields=['Fornavn','Efternavn','Adresse','Postnummer','By','Telefon','Email'];
         fields.forEach(function(field)
         {
           if (document.getElementById(field) && !document.getElementById(field).value)
             msg+="Feltet '"+field+"' skal udfyldes.\n";
         });
 
-        if (isNaN(parseInt(document.getElementById('telefon').value)) || document.getElementById('telefon').value.length < 8)
+        if (   isNaN(parseInt(document.getElementById('Telefon').value))
+            || document.getElementById('Telefon').value.length < 8
+	   )
           msg+="Telefonnummer ugyldigt.";
-														       if (msg.length > 0)
-	{
+        if (msg.length > 0)
+        {
           alert("Der mangler informationer, ret venligst følgende:\n\n"+msg);
-	  return false;
-	}
+          return false;
+        }
         return true;
       }
 
       function validateOrder()
       {
-        if (!document.getElementById('medlemsnummer').value)
+        if (!document.getElementById('Medlemsnummer').value)
         {
           alert("Angiv venligst dit ØFFE-medlemsnummer for at bestille.");
           return false;
         }
-        else if (isNaN(parseInt(document.getElementById('medlemsnummer').value)) || document.getElementById('medlemsnummer').value == 0)
+        else if (   isNaN(parseInt(document.getElementById('Medlemsnummer').value))
+                || document.getElementById('Medlemsnummer').value == 0
+                )
         {
           alert("Ugyldigt medlemsnummer. Angiv venligst dit ØFFE-medlemsnummer for at bestille.");
           return false;
         }
-        else if (!document.getElementById('kvitteringsemail').value)
+        else if (!document.getElementById('Kvitteringsemail').value)
         {
           alert("Ingen kvitteringsemail angivet. Vi vil gerne sende dig en kvittering med yderligere instruktioner.");
           return false;
         }
-        else if (document.getElementById('samlet pris').value==0)
+        else if (document.getElementById('Samlet pris').value==0)
         {
           alert("Ingen varer valgt. Du kan ikke bestille ingenting.");
           return false;
@@ -479,7 +494,7 @@
       function getDaysTillDelivery(date)
       {
         deliveryDayOfWeek = 4;   // Thursdays
-        deliveryWeekEven = true; // in even weeks
+        deliveryWeekEven = false // in even weeks
 
         curDate = (new Date(date?date:Date()));
         deltaDeliveryDayOfWeek=deliveryDayOfWeek-curDate.getDay();
@@ -509,7 +524,7 @@
 
       function formatDate(date)
       {
-        return 'd. '+date.getDate()+'/'+(date.getMonth()+1)+'-'+date.getFullYear();
+        return date.getDayOfWeek()+' d. '+date.getDate()+'/'+(date.getMonth()+1)+'-'+date.getFullYear();
       }
 
 /*
@@ -537,28 +552,29 @@
 
       nextDelivery = getNextDeliveryDate(pretendDate);
       daysTillDelivery = getDaysTillDelivery(pretendDate);
+      nonOrderDays=2; // delivery day counts as one
 
-      // show form if before saturday
-      if (daysTillDelivery>5) //&& daysTillDelivery < 14)
+      // show form if order still possible
+      if (daysTillDelivery>=nonOrderDays)
       {
         orderClose=new Date(pretendDate?pretendDate:Date());
-        orderClose.setDate(orderClose.getDate()+daysTillDelivery-6);
-        document.getElementById('bestil-form-header').innerHTML+="Her kan du bestille varer til næste udlevering som er <strong>torsdag "+formatDate(nextDelivery)+'</strong> (uge '+nextDelivery.getWeek()+'). <br>Bestillinger modtages til og med <strong>fredag '+formatDate(orderClose)+'</stromg>.';
+        orderClose.setDate(orderClose.getDate()+daysTillDelivery-nonOrderDays);
+        document.getElementById('bestil-form-header').innerHTML+="Her kan du bestille varer til næste udlevering som er <strong>"+formatDate(nextDelivery)+'</strong> (uge '+nextDelivery.getWeek()+'). <br>Bestillinger modtages til og med <strong> '+formatDate(orderClose)+'</stromg>.';
         goods.forEach(function(week)
         {
           if (week.year==nextDelivery.getFullYear() && week.week==nextDelivery.getWeek())
             week.items.forEach(function(item){addItem(item)});
         });
         calculateTotalPrice();
-        document.getElementById('udleveringsdato').value=formatDate(nextDelivery);
-        document.getElementById('betalingsfrist').value=formatDate(orderClose);
+        document.getElementById('Udleveringsdato').value=formatDate(nextDelivery);
+        document.getElementById('Betalingsfrist').value=formatDate(orderClose);
         document.getElementById('bestil-form').style.display='block';
       }
       else
       {
         orderOpen=new Date(pretendDate?pretendDate:Date());
         orderOpen.setDate(nextDelivery.getDate()+1);
-        document.getElementById('bestil-form-header').innerHTML+="Næste udlevering er <strong>torsdag "+formatDate(nextDelivery)+'</strong> (uge '+nextDelivery.getWeek()+').<br>Bestilling af varer til denne udlevering er dog lukket, bestilling til næstkommende udlevering åbner <strong>'+formatDate(orderOpen)+'</strong>.';
+        document.getElementById('bestil-form-header').innerHTML+="Næste udlevering er <strong>"+formatDate(nextDelivery)+'</strong> (uge '+nextDelivery.getWeek()+').<br>Bestilling af varer til denne udlevering er dog lukket, bestilling til næstkommende udlevering åbner <strong>'+formatDate(orderOpen)+'</strong>.';
       }
 
     </script>
