@@ -265,7 +265,7 @@ var goods=[
 	,{"name":"Ølandsperler, 1 kg","unit":"poser", "price":22}
 	,{"name":"Jomfrubygperler, 1 kg","unit":"poser", "price":22}
 	,{"name":"Svedjerug, 1 kg","unit":"poser", "price":22}
-	,{"name":"Havregryn, 1 kg","unit":"poser", "price":22}
+	,{"name":"Havregryn, 0,8 kg","unit":"poser", "price":22}
         ,{"group":"Øvrige lækkerier"}
 	,{"name":"Æblemost, 2,5 liter","unit":"dunke", "price":50, "description":"dejlig stærk med en smule frugtkød, fra Frederik Rahbeks plantage på <a href='http://www.forumlund.dk/'>Forumlund</a>"}
      ]
