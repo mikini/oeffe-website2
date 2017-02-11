@@ -1,7 +1,7 @@
+<?php
 // Simple hit counter using sqlite
 // Include in the php page which is to be counted, database name is hardcoded for now.
 // Request statistics page by issuing a get request to the page.
-<?php
 
 if ($db = new SQLite3('hitcount.db'))
     $db->exec('CREATE TABLE IF NOT EXISTS hits (year STRING, month STRING, day STRING, hour STRING, hits STRING)');
