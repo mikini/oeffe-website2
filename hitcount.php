@@ -3,6 +3,7 @@
 // Include in the php page which is to be counted, database name is hardcoded for now.
 // Request statistics page by issuing a get request to the page.
 
+$count=true;
 if ($db = new SQLite3('hitcount.db'))
     $db->exec('CREATE TABLE IF NOT EXISTS hits (year STRING, month STRING, day STRING, hour STRING, hits STRING)');
 else
@@ -19,7 +20,11 @@ if (count($_GET) > 0)
   if (!is_null($_GET['total']))
   {
     echo $total;
+    die();
   }
+
+  else if (!is_null($_GET['nocount']))
+     $count=false;
   // any other make a plain stat page
   else
   {
@@ -36,32 +41,35 @@ if (count($_GET) > 0)
       echo "<tr><td>".$row['year']."-".$row['month']."-".$row['day']."</td><td align=right>".$row['hour']."</td><td align=right>".$row['hits']."</td></tr>";
     }
     echo "</table></html>";
-  }
   die();
+  }
 }
 
-// Record a hit for this hour
-$date = getdate();
-$where = "WHERE "
-  . "year='"  . $date['year']  . "' AND "
-  . "month='" . $date['mon']   . "' AND "
-  . "day='"   . $date['mday']  . "' AND "
-  . "hour='"  . $date['hours'] . "';";
-
-$result = $db->query('SELECT * FROM hits '.$where);
-if ( $row = $result->fetchArray(SQLITE3_ASSOC) )
+if ($count)
 {
-  $db->exec("UPDATE hits SET hits='".intval($row['hits']+1)."' ".$where);
-}
-else
-{
-  $db->exec("INSERT INTO hits (year, month, day, hour, hits) VALUES ('"
-    . $date['year']  . "','"
-    . $date['mon']   . "','"
-    . $date['mday']  . "','"
-    . $date['hours'] . "','"
-    . intval(1)
-    . "');");
-}
 
+  // Record a hit for this hour
+  $date = getdate();
+  $where = "WHERE "
+    . "year='"  . $date['year']  . "' AND "
+    . "month='" . $date['mon']   . "' AND "
+    . "day='"   . $date['mday']  . "' AND "
+    . "hour='"  . $date['hours'] . "';";
+
+  $result = $db->query('SELECT * FROM hits '.$where);
+  if ( $row = $result->fetchArray(SQLITE3_ASSOC) )
+  {
+    $db->exec("UPDATE hits SET hits='".intval($row['hits']+1)."' ".$where);
+  }
+  else
+  {
+    $db->exec("INSERT INTO hits (year, month, day, hour, hits) VALUES ('"
+      . $date['year']  . "','"
+      . $date['mon']   . "','"
+      . $date['mday']  . "','"
+      . $date['hours'] . "','"
+      . intval(1)
+      . "');");
+  }
+}
 ?>
