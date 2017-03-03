@@ -523,9 +523,9 @@
         return nextDelivery;
       }
 
-      function formatDate(date)
+      function formatDate(date, hour = false)
       {
-        return date.getDayOfWeek()+' d. '+date.getDate()+'/'+(date.getMonth()+1)+'-'+date.getFullYear();
+          return date.getDayOfWeek()+' d. '+date.getDate()+'/'+(date.getMonth()+1)+'-'+date.getFullYear()+(hour?" kl. "+date.getHours():"");
       }
 
 /*
@@ -543,24 +543,31 @@
 */
 
       var pretendDate="";
-      params=window.location.search.substring(1).split("=");
-      if (params[0]=="date")
+      params=window.location.search.substring(1).split("&");
+      params.forEach(function(param)
       {
-        pretendDate=params[1];
-        console.log("Pretending date: "+pretendDate)
-        document.getElementById('bestil-form-header').innerHTML="<font color='red'>Datotest! Viser bestillingen som om datoen er "+pretendDate+"!</font><br>";
-      }
-
+        keyval=param.split("=");
+        if (keyval[0]=="date")
+        {
+          pretendDate=keyval[1].replace("%20", " ");
+          console.log("Pretending date: "+pretendDate)
+          document.getElementById('bestil-form-header').innerHTML="<font color='red'>Datotest! Viser bestillingen som om datoen er "+pretendDate+"!</font><br>";
+        }
+      });
       nextDelivery = getNextDeliveryDate(pretendDate);
       daysTillDelivery = getDaysTillDelivery(pretendDate);
-      nonOrderDays=2; // delivery day counts as one
-
+      nonOrderDays=4; // delivery day counts as one
+      nonOrderHours=6;
+      orderClose=new Date(pretendDate?pretendDate:Date());
+      orderClose.setDate(orderClose.getDate()+daysTillDelivery-nonOrderDays);
+      orderClose.setHours(24-nonOrderHours,0,0,0);
+      curDate=new Date(pretendDate?pretendDate:Date());
       // show form if order still possible
-      if (daysTillDelivery>=nonOrderDays)
+      if (   daysTillDelivery>nonOrderDays
+          || (daysTillDelivery==nonOrderDays && (curDate.getHours() < orderClose.getHours()))
+         )
       {
-        orderClose=new Date(pretendDate?pretendDate:Date());
-        orderClose.setDate(orderClose.getDate()+daysTillDelivery-nonOrderDays);
-        document.getElementById('bestil-form-header').innerHTML+="Her kan du bestille varer til næste udlevering som er <strong>"+formatDate(nextDelivery)+'</strong> (uge '+nextDelivery.getWeek()+'). <br>Bestillinger modtages til og med <strong> '+formatDate(orderClose)+'</stromg>.';
+          document.getElementById('bestil-form-header').innerHTML+="Her kan du bestille varer til næste udlevering som er <strong>"+formatDate(nextDelivery)+'</strong> (uge '+nextDelivery.getWeek()+'). <br>Bestillinger modtages indtil <strong> '+formatDate(orderClose,true)+'</stromg>.';
         goods.forEach(function(week)
         {
           if (week.year==nextDelivery.getFullYear() && week.week==nextDelivery.getWeek())
@@ -573,7 +580,7 @@
       }
       else
       {
-        orderOpen=new Date(pretendDate?pretendDate:Date());
+        orderOpen=new Date(nextDelivery);
         orderOpen.setDate(nextDelivery.getDate()+1);
         document.getElementById('bestil-form-header').innerHTML+="Næste udlevering er <strong>"+formatDate(nextDelivery)+'</strong> (uge '+nextDelivery.getWeek()+').<br>Bestilling af varer til denne udlevering er dog lukket, bestilling til næstkommende udlevering åbner <strong>'+formatDate(orderOpen)+'</strong>.';
       }
