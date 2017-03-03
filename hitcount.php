@@ -40,8 +40,22 @@ if (count($_GET) > 0)
     {
       echo "<tr><td>".$row['year']."-".$row['month']."-".$row['day']."</td><td align=right>".$row['hour']."</td><td align=right>".$row['hits']."</td></tr>";
     }
-    echo "</table></html>";
-  die();
+    echo "</table>";
+
+    echo "<h1>Akkumuleret time-statistik</h1>";
+    echo "<table border=1>";
+    echo "<tr><td><b>Time</b></td><td><b>Besøg<b></td></tr>";
+    foreach(array(0,1,2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19,20,21,22,23) as $hour)
+    {
+      $result = $db->query("SELECT hour, sum(hits) FROM hits WHERE hour=$hour;");
+      while ( $row = $result->fetchArray(SQLITE3_BOTH) )
+      {
+        echo "<tr><td>".$row[0]."</td><td align=right>".$row[1]."</td>";
+      }
+    }
+    echo "</table>";
+    echo "</html>";
+    die();
   }
 }
 
