@@ -124,6 +124,10 @@
 	    </div>
 	    <div class="row">
               <div class="col-lg-12" id="nytnyt">
+		<h3>2017-03-20</h3>
+		<p>
+         ØFFE's primære leverandør af grøntsager, Varde Ådal Lam, kan desværre ikke længere levere gulerødder og pastinakker, hvorfor disse ikke længere kan bestilles. Dog har vi fået mulighed for at aftage jordskokker fra Ligéa og Kim i Årre, som nu kan bestilles til udleveringen i uge 13. Vi ser frem til at 2017-sæsonen starter, så der igen kan komme mere varieret og frisk sprødhed på bordet. Se <a href="#bestil">bestilling</a>.
+		</p>
 		<h3>2017-02-09</h3>
 		<p>
 		  Fra og med uge 7 foregår udlevering på torsdage i ulige uger, mod tidligere lige uger. Derudover er der tilføjet to nye udleveringssteder så varer nu kan afhentes i både Guldager, Hjerting (ny), Østerbyen og Tjæreborg (ny). I tillæg er bestillingsperioden udvidet, således at der kan bestilles helt frem til søndag aften, hvor udlevering foregår torsdagen efter. Se <a href="#bestil">bestilling</a>.

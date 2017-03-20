@@ -323,8 +323,6 @@ var goods=[
      "items":[
 	 {"group":"Grøntsager", "description":"Økologiske og lokale varer fra bl. a. <a href='http://www.vardeaadallam.dk'>Varde Ådal Lam</a> og Ligéa og Kim i Årre."}
 	,{"name":"Kartofler","unit":"kg.", "price":9}
-	,{"name":"Gulerødder","unit":"kg.", "price":9}
-	,{"name":"Pastinakker","unit":"kg.", "price":9}
 	,{"name":"Løg","unit":"kg.", "price":9}
 	,{"name":"Jordskokker","unit":"250 g.", "price":8}
         ,{"group":"Æg", "description":"Størrelsen er M/L, leveres gennemlyste og datostemplede som reglerne foreskriver ved detailsalg. Køber man som privat direkte fra producenten er reglerne mindre restriktive."}
