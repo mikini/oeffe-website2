@@ -130,7 +130,7 @@
 		</p>
 		<h3>2017-02-09</h3>
 		<p>
-		  Fra og med uge 7 foregår udlevering på torsdage i ulige uger, mod tidligere lige uger. Derudover er der tilføjet to nye udleveringssteder så varer nu kan afhentes i både Guldager, Hjerting (ny), Østerbyen og Tjæreborg (ny). I tillæg er bestillingsperioden udvidet, således at der kan bestilles helt frem til søndag aften, hvor udlevering foregår torsdagen efter. Se <a href="#bestil">bestilling</a>.
+		  Fra og med uge 7 foregår udlevering på torsdage i ulige uger, mod tidligere lige uger. Derudover er der tilføjet to nye udleveringssteder så varer nu kan afhentes på både Midtgård (Guldager) samt i Hjerting (ny), Østerbyen og Tjæreborg (ny). I tillæg er bestillingsperioden udvidet, således at der kan bestilles helt frem til søndag aften, hvor udlevering foregår torsdagen efter. Se <a href="#bestil">bestilling</a>.
 		</p>
 		<p>
 		  <a onclick="var form=getElementById('gammelnyt'); form.style.display=(form.style.display=='none'?'block':'none');">Tidligere nyheder</a>
@@ -237,7 +237,7 @@
                   <label>Kvitteringsemail: <input type="text" id="Kvitteringsemail" name="Kvitteringsemail" size="20"></label><br>
                   <label>Udleveringssted:
                     <select id="Udleveringssted" name="Udleveringssted">
-                      <option value="Midtgård - kl. 16:00-17:30 (Ravnsbjergparken 6, 6710 Esbjerg V)" selected>Midtgård - kl. 16:00-17:30 (Ravnsbjergparken 6, 6710 Esbjerg V)</option>
+                      <option value="Midtgård - kl. 16:00-17:30 (Ravnsbjergvej 6, 6710 Esbjerg V)" selected>Midtgård - kl. 16:00-17:30 (Ravnsbjergvej 6, 6710 Esbjerg V)</option>
                       <option value="Esbjerg Ø - kl. 18:00-20:00 (Holger Drachmanns Alle 16, 6700 Esbjerg)">Esbjerg Ø - kl. 18:00-20:00 (Holger Drachmanns Alle 16, 6700 Esbjerg)</option>
                       <option value="Hjerting - kl. 18:00-20:00 (Styrmandsvænget 236, 6710 Esbjerg V)">Hjerting - kl. 18:00-20:00 (Styrmandsvænget 236, 6710 Esbjerg V)</option>
                       <option value="Tjæreborg - kl. 17:00-20:00 (Blichers Kro - Krostuen, Tjæreborg Stationsvej 21, 6731 Tjæreborg)">Tjæreborg - kl. 17:00-20:00 (Blichers Kro - Krostuen, Tjæreborg Stationsvej 21, 6731 Tjæreborg)</option>
@@ -358,6 +358,7 @@
 		    <p>
 		      <strong>Email:</strong> <a href="mailto:oeffesbjerg@gmail.com">oeffesbjerg@gmail.com</a><br>
 		      <strong>Facebook:</strong> <a href="https://www.facebook.com/groups/997317766980298/">facebook.com/groups/997317766980298/</a><br>
+         <strong>Facebook (for medlemmer):</strong> <a href="https://www.facebook.com/groups/198925413910094/">www.facebook.com/groups/198925413910094/</a><br>
 <!--
 		      <strong>Telefon:</strong> <br>
 -->
@@ -374,7 +375,7 @@
                 <div class="row">
                     <div class="footer-col col-md-4">
                         <h3>Adresse</h3>
-                        <p>c/o <a href="http://midtgaard.esbjergkommune.dk/">Midtgård</a><br>Ravnsbjergparken 6
+                        <p>c/o <a href="http://myrthue.esbjergkommune.dk/midtgaard.aspx">Midtgård</a><br>Ravnsbjergvej 6
                             <br>6710 Esbjerg V<br>(se <a href="http://www.openstreetmap.org/?mlat=55.52472&mlon=8.43824#map=13/55.5000/8.4617">kort</a>)</p>
                     </div>
                     <div class="footer-col col-md-4">
