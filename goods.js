@@ -364,4 +364,27 @@ var goods=[
 	,{"name":"Æblemost, 2,5 liter","unit":"dunke", "price":50, "description":"dejlig stærk med en smule frugtkød, fra Frederik Rahbeks plantage på <a href='http://www.forumlund.dk/'>Forumlund</a>"}
      ]
     }
+    ,{"week": 17,
+     "year": 2017,
+     "items":[
+	 {"group":"Grøntsager", "description":"Økologiske og lokale varer fra bl. a. <a href='http://www.vardeaadallam.dk'>Varde Ådal Lam</a> og Ligéa og Kim i Årre."}
+	,{"name":"Kartofler","unit":"kg.", "price":9}
+	,{"name":"Løg","unit":"kg.", "price":9}
+	,{"name":"Jordskokker, 250 g.","unit":"portioner", "price":8}
+        ,{"group":"Æg", "description":"Størrelsen er M/L, leveres gennemlyste og datostemplede som reglerne foreskriver ved detailsalg. Køber man som privat direkte fra producenten er reglerne mindre restriktive."}
+	,{"name":"Æg, 6 stk","unit":"bakker", "price":20}
+	,{"name":"Æg, 15 stk","unit":"bakker", "price":40}
+	,{"name":"Æg, 30 stk","unit":"bakker", "price":75}
+        ,{"group":"Kornprodukter", "description":"Økologiske, biodynamiske og Demeter-mærkede kornprodukter fra <a href='http://www.melfraforum.dk/'>Mel fra Forum</a>."}
+	,{"name":"Ølandshvede, 1 kg","unit":"poser", "price":22}
+	,{"name":"Fint Ølandshvede, 1 kg","unit":"poser", "price":22}
+	,{"name":"Vårrug, 1 kg","unit":"poser", "price":22, "description":"knækkede rugkerner"}
+	,{"name":"Ølandsperler, 1 kg","unit":"poser", "price":22}
+	,{"name":"Jomfrubygperler, 1 kg","unit":"poser", "price":22}
+	,{"name":"Svedjerug, 1 kg","unit":"poser", "price":22}
+	,{"name":"Havregryn, 0,8 kg","unit":"poser", "price":22}
+        ,{"group":"Øvrige lækkerier"}
+	,{"name":"Æblemost, 2,5 liter","unit":"dunke", "price":50, "description":"dejlig stærk med en smule frugtkød, fra Frederik Rahbeks plantage på <a href='http://www.forumlund.dk/'>Forumlund</a>"}
+     ]
+    }
 ];
