@@ -295,17 +295,17 @@
 		</p>
 		<h3>Kommunikation</h3>
 		<p>
-		  <em>Koordinator:</em> <br>
+		  <em>Koordinator:</em> Mikkel Kirkgaard Nielsen<br>
 		  Sørger for hjemmeside, respons på email og Facebook.
 		</p>
 		<h3>Økonomi</h3>
 		<p>
-		  <em>Koordinator:</em> <br>
+		  <em>Koordinator:</em> Lissi Lynghede<br>
 		  Sørger for de mere formelle forhold omkring økonomi, regnskab, moms mm.
 		</p>
 		<h3>Arrangementer</h3>
 		<p>
-		  <em>Koordinator:</em> Tanja Guldager Aggerholm<br>
+		  <em>Koordinator:</em> Catja Keldsen<br>
 		  Planlægger og gennemfører arrangementer internt i ØFFE og ved ØFFE's deltagelse i eksterne begivenheder (høstmarked mm).
 		</p>
 		<h3>Vagtplan</h3>
@@ -330,17 +330,17 @@
                 <div class="col-lg-12 text-center">
                     <!-- To configure the contact form email address, go to mail/contact_me.php and update the email address in the PHP file on line 19. -->
                     <!-- The form should work on most web servers, but if the form is not working you may need to configure your web server differently. -->
-<!--
+
 		    <h3>Bestyrelse</h3>
 		    <p>
 		      <strong>Formand:</strong> Ligéa Carpentier<br>
 		      <strong>Kasserer:</strong> Lissi Lynghede<br>
 		      <strong>Medlem:</strong> Birthe Elisabeth Christensen<br>
-		      <strong>Medlem:</strong> Tanja Guldager Aggerholm<br>
-		      <strong>1. Suppleant:</strong> Catja Kjeldsen<br>
+		      <strong>Medlem:</strong> Catja Kjeldsen<br>
+		      <strong>1. Suppleant:</strong> Ulrik Storkholm<br>
 		      <strong>2. Suppleant:</strong> Renathe M. Hadulla<br>
 		    </p>
--->
+
 
 		    <h3 id="vedtægter">Vedtægter</h3>
 		    <p>
@@ -359,9 +359,9 @@
 		      <strong>Email:</strong> <a href="mailto:oeffesbjerg@gmail.com">oeffesbjerg@gmail.com</a><br>
 		      <strong>Facebook:</strong> <a href="https://www.facebook.com/groups/997317766980298/">facebook.com/groups/997317766980298/</a><br>
          <strong>Facebook (for medlemmer):</strong> <a href="https://www.facebook.com/groups/198925413910094/">www.facebook.com/groups/198925413910094/</a><br>
-<!--
-		      <strong>Telefon:</strong> <br>
--->
+
+         <strong>Formandens telefonnummer:</strong> (benyt venligst skriftlig henvendelse hvis muligt)<br>
+
 		    </p>
                 </div>
             </div>
