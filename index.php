@@ -334,8 +334,15 @@
                 <div class="col-lg-12 text-center">
                     <!-- To configure the contact form email address, go to mail/contact_me.php and update the email address in the PHP file on line 19. -->
                     <!-- The form should work on most web servers, but if the form is not working you may need to configure your web server differently. -->
+		    <h3>Formaliteter</h3>
+		    <p>
+		      <strong>Formelt navn:</strong> ØFFE<br>
+		      <strong>CVR nummer:</strong> <a href="https://datacvr.virk.dk/data/visenhed?enhedstype=virksomhed&id=37466336">37466336</a><br>
+		      <strong>Virksomhedstype:</strong> Frivillig forening<br>
+         <strong>Stiftet:</strong> 2016-01-13 (<a href="ØFFE vedtægter 2016-01-13.pdf">gældende vedtægter</a>)<br>
+		    </p>
 
-		    <h3>Bestyrelse</h3>
+		    <h3 id="bestyrelse">Bestyrelse</h3>
 		    <p>
 		      <strong>Formand:</strong> Ligéa Carpentier<br>
 		      <strong>Kasserer:</strong> Lissi Lynghede<br>
@@ -346,9 +353,12 @@
 		    </p>
 
 
-		    <h3 id="vedtægter">Vedtægter</h3>
+		    <h3 id="referater">Referater</h3>
 		    <p>
-		      De formelle bestemmelser for ØFFE kan findes i <a href="ØFFE vedtægter 2016-01-13.pdf">vedtægterne</a>, og beslutninger taget på den stiftende generalforsamnling d. 13/1-2016 er ført til protokols i <a href="ØFFE referat fra stiftende generalforsamling 2016-01-13.pdf">referatet</a>.
+                <ul>
+                    <li><a href="ØFFE Generalforsamling 2017-04-26.pdf">Ordinær generalforsamling, 2017-04-26</a></li>
+                    <li><a href="ØFFE referat fra stiftende generalforsamling 2016-01-13.pdf">Stiftende generalforsamling, 2016-01-13</a></li>
+                </ul>
 		    </p>
 
 		    <h3 id="betaling">Betaling</h3>
@@ -364,7 +374,7 @@
 		      <strong>Facebook:</strong> <a href="https://www.facebook.com/groups/997317766980298/">facebook.com/groups/997317766980298/</a><br>
          <strong>Facebook (for medlemmer):</strong> <a href="https://www.facebook.com/groups/198925413910094/">www.facebook.com/groups/198925413910094/</a><br>
 
-         <strong>Formandens telefonnummer:</strong> (benyt venligst skriftlig henvendelse hvis muligt)<br>
+         <strong>Formandens telefonnummer:</strong> 91 94 71 19 (benyt venligst skriftlig henvendelse hvis muligt)<br>
 
 		    </p>
                 </div>
@@ -379,8 +389,12 @@
                 <div class="row">
                     <div class="footer-col col-md-4">
                         <h3>Adresse</h3>
-                        <p>c/o <a href="http://myrthue.esbjergkommune.dk/midtgaard.aspx">Midtgård</a><br>Ravnsbjergvej 6
-                            <br>6710 Esbjerg V<br>(se <a href="http://www.openstreetmap.org/?mlat=55.52472&mlon=8.43824#map=13/55.5000/8.4617">kort</a>)</p>
+                        <p>
+                            c/o <a href="http://myrthue.esbjergkommune.dk/midtgaard.aspx">Midtgård</a><br>
+                            Ravnsbjergvej 6<br>
+                            6710 Esbjerg V<br>
+                            (se <a href="http://www.openstreetmap.org/?mlat=55.52472&mlon=8.43824#map=13/55.5000/8.4617">kort</a>)
+                        </p>
                     </div>
                     <div class="footer-col col-md-4">
                         <h3>På Nettet</h3>
@@ -404,7 +418,7 @@
             <div class="container">
                 <div class="row">
                     <div class="col-lg-12">
-                        Copyright &copy; ØFFE 2016, indhold licenseret under <a href="https://creativecommons.org/licenses/by-sa/4.0/">CC BY-SA</a><br>designskabelon <a href="https://github.com/BlackrockDigital/startbootstrap-freelancer">Freelancer</a>
+                        Copyright &copy; ØFFE 2017, indhold licenseret under <a href="https://creativecommons.org/licenses/by-sa/4.0/">CC BY-SA</a><br>designskabelon <a href="https://github.com/BlackrockDigital/startbootstrap-freelancer">Freelancer</a>
                     </div>
                 </div>
             </div>
