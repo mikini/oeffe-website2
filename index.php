@@ -476,10 +476,13 @@
             msg+="Feltet '"+field+"' skal udfyldes.\n";
         });
 
+        if (   document.getElementById('Fornavn').value
+            && document.getElementById('Fornavn').value == document.getElementById('Efternavn').value)
+          msg+="Fornavn og efternavn skal være forskellige.\n";
         if (   isNaN(parseInt(document.getElementById('Telefon').value))
-            || document.getElementById('Telefon').value.length < 8
-	   )
-          msg+="Telefonnummer ugyldigt.";
+            || document.getElementById('Telefon').value.length != 8 )
+          msg+="Telefonnummer skal være på 8 cifre uden mellemrum.\n";
+
         if (msg.length > 0)
         {
           alert("Der mangler informationer, ret venligst følgende:\n\n"+msg);
