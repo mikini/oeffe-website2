@@ -460,7 +460,7 @@
           newItem.innerHTML='<h3>'+item.group+'</h3><p>'+(item.description?item.description:"")+'</p>';
         else
         {
-          newItem.innerHTML='<p><label><input type="number" min="0" max="10" value="0" style="width: 3em" name="'+item.name+'" id="'+item.name+'" onchange="calculateTotalPrice();" oninput="calculateTotalPrice();"/> '+item.unit+' '+item.name+' á '+item.price+' kr.'+(item.description?'<br>'+item.description:"")+'</label></p>';
+          newItem.innerHTML='<p><label><input type="number" min="0" max="10" value="0" style="width: 3em" name="'+item.name+'" id="'+item.name+'" onchange="calculateTotalPrice();" oninput="calculateTotalPrice();"/> '+item.unit+' <font color="green">'+item.name+'</font> á '+item.price+' kr.'+(item.description?'<br>'+item.description:"")+'</label></p>';
           totalPriceItems.push([item.name,item.price]);
         }
         document.getElementById('dynItems').appendChild(newItem);
