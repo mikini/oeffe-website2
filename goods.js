@@ -434,9 +434,10 @@ var goods=[
     ,{"week": 23,
      "year": 2017,
      "items":[
-//	 {"group":"Grøntsager", "description":"Økologiske og lokale varer fra bl. a. <a href='http://www.vardeaadallam.dk'>Varde Ådal Lam</a> og Ligéa og Kim i Årre."}
-	 {"group":"Grøntsager", "description":"Økologiske og lokale varer fra bl. a. <a href='http://www.vardeaadallam.dk'>Varde Ådal Lam</a>.                       "}
+	 {"group":"Grøntsager", "description":"Økologiske og lokale varer fra bl. a. <a href='http://www.vardeaadallam.dk'>Varde Ådal Lam</a> og Ligéa og Kim i Årre."}
+//	 {"group":"Grøntsager", "description":"Økologiske og lokale varer fra bl. a. <a href='http://www.vardeaadallam.dk'>Varde Ådal Lam</a>.                       "}
 	,{"name":"Løg","unit":"kg.", "price":9}
+	,{"name":"Radiser","unit":"bundter a 125g.", "price":9}
         ,{"group":"Æg", "description":"Størrelsen er M/L, leveres gennemlyste og datostemplede som reglerne foreskriver ved detailsalg. Køber man som privat direkte fra producenten er reglerne mindre restriktive."}
 	,{"name":"Æg, 6 stk","unit":"bakker", "price":20}
 	,{"name":"Æg, 15 stk","unit":"bakker", "price":40}
