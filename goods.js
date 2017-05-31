@@ -452,6 +452,11 @@ var goods=[
 	,{"name":"Havregryn, 0,8 kg","unit":"poser", "price":22}
         ,{"group":"Øvrige lækkerier"}
 	,{"name":"Æblemost, 2,5 liter","unit":"dunke", "price":50, "description":"dejlig stærk med en smule frugtkød, fra Frederik Rahbeks plantage på <a href='http://www.forumlund.dk/'>Forumlund</a>"}
+        ,{"group":"Brød", "description":"Økologiske brødprodukter fra <a href='http://brødkoncept.dk/'>BRØDkoncept</a>."}
+        ,{"name":"Hvedebrød","unit":"stk", "price":35}
+        ,{"name":"100% Speltbrød, bagt udelukkende med speltmel","unit":"stk", "price":45}
+        ,{"name":"Rugbrød","unit":"stk", "price":35}
+        ,{"name":"Fuldkornsboller, 6 stk.","unit":"poser", "price":35}
      ]
     }
 ];
