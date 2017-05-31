@@ -453,10 +453,10 @@ var goods=[
         ,{"group":"Øvrige lækkerier"}
 	,{"name":"Æblemost, 2,5 liter","unit":"dunke", "price":50, "description":"dejlig stærk med en smule frugtkød, fra Frederik Rahbeks plantage på <a href='http://www.forumlund.dk/'>Forumlund</a>"}
         ,{"group":"Brød", "description":"Økologiske brødprodukter fra <a href='http://brødkoncept.dk/'>BRØDkoncept</a>."}
-        ,{"name":"Hvedebrød","unit":"stk", "price":35}
-        ,{"name":"100% Speltbrød, bagt udelukkende med speltmel","unit":"stk", "price":45}
-        ,{"name":"Rugbrød","unit":"stk", "price":35}
-        ,{"name":"Fuldkornsboller, 6 stk.","unit":"poser", "price":35}
+        ,{"name":"Hvedebrød","unit":"stk", "price":35, "description":"<img src='http://brødkoncept.dk/lev129/ill/smaa/b1.jpg'/>"}
+        ,{"name":"100% Speltbrød", "description":"bagt udelukkende med speltmel<br><img src='http://brødkoncept.dk/lev129/ill/smaa/b4.jpg'/>","unit":"stk", "price":45}
+         ,{"name":"Rugbrød","unit":"stk", "price":35, "description":"<img src='http://brødkoncept.dk/lev129/ill/smaa/b6.jpg'/>"}
+         ,{"name":"Fuldkornsboller, 6 stk.","unit":"poser", "price":35, "description":"<img src='http://brødkoncept.dk/lev129/ill/smaa/b7.jpg'/>"}
      ]
     }
 ];
