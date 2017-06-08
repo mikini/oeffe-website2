@@ -81,7 +81,7 @@
         <div class="container">
             <div class="row">
                 <div class="col-lg-12">
-                    <img class="img-rounded" src="ØFFE logo.jpg" alt="Håndtegnet ØFFE-logo">
+                    <img class="img-rounded" style="max-width:100%;" src="ØFFE logo, ny, web.jpg" alt="Håndtegnet ØFFE-logo">
                     <div class="intro-text">
                         <span class="name">Økologisk FødevareFællesskab Esbjerg</span>
                         <hr class="star-light">
@@ -99,16 +99,21 @@
                 <div class="col-lg-12 text-center">
                     <h2>Hvad er ØFFE?</h2>
                     <hr class="star-primary">
-		</div>
-	    </div>
-	    <div class="row">
-              <div class="col-lg-12">
-		<p>Økologisk FødevareFællesskab Esbjerg er en forening af forbrugere i Esbjerg og omegn, der ønsker øgede muligheder for at forbruge lokalt producerede økologiske fødevarer.
-		<br>
-		Som medlem har man mulighed for at bestille friske grøntsager og andre varer (pt. æg og kornprodukter) til udlevering hver 14. dag. Udlevering sker på torsdage i ulige uger fra ØFFE's fødevarekontrollerede lokaler på <a href="http://midtgaard.esbjergkommune.dk/">Midtgård</a> eller et af 3 andre udleveringssteder i Esbjerg.
-		</p>
-		<img style="display: block; margin: 0 auto;" class="img-rounded" src="ØFFE pose, lille.jpg" alt="Eksempel på varer fra ØFFE; persille, kartofler, gulerødder, løg, bolche-bede">
-              </div>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-lg-12">
+                    <p>
+                        Økologisk FødevareFællesskab Esbjerg er en forening af forbrugere i Esbjerg og omegn, der ønsker øgede muligheder for at aftage lokalt producerede økologiske fødevarer.
+                    </p>
+                    <p>
+                        Som medlem har man mulighed for at bestille friske grøntsager og andre varer til udlevering hver 14. dag. Udlevering sker på torsdage i ulige uger fra ØFFE's fødevarekontrollerede lokaler på <a href="http://myrthue.esbjergkommune.dk/midtgaard.aspx">Midtgård</a> eller et af 3 andre udleveringssteder i Esbjerg.
+                    </p>
+                    <p>
+                        Foreningen drives udelukkende af dens medlemmer i fællesskab, og på en så åben og transparent måde som muligt. Dermed er det også en forudsætning for foreningens eksistens, at hvert medlem indimellem bidrager til dette.
+                    </p>
+                    <img style="display: block; margin: 0 auto;" class="img-rounded" src="ØFFE pose, lille.jpg" alt="Eksempel på varer fra ØFFE; persille, kartofler, gulerødder, løg, bolche-bede">
+                </div>
             </div>
         </div>
     </section>
@@ -120,23 +125,35 @@
                 <div class="col-lg-12 text-center">
                     <h2>Nyt</h2>
                     <hr class="star-primary">
-		</div>
-	    </div>
-	    <div class="row">
-        <div class="col-lg-12" id="nytnyt">
-		<h3>2017-05-16</h3>
-		<p>
+                </div>
+            </div>
+        <div class="row">
+            <div class="col-lg-12" id="nytnyt">
+                <h3>2017-06-08</h3>
+                <p>
+                    Sortimentet til udleveringen i uge 25 (torsdag d. 22/6-2017) vil indeholde en spændende nyhed, nemlig 4 varianter af økolgisk brød fra <a href="">BRØDkoncept</a> i Aulum. BRØDkoncept går op i traditionelt håndværk og processer, blandt andet ved brug af stenmølle-malet mel, surdej og koldhævning. Hos ØFFE ser vi frem til at stifte nærmere bekendtskab med produkterne.
+                </p>
+                <h3>2017-06-07</h3>
+                <p>
+                     ØFFE får til udleveringen d. 8. juni på <a href="">Midtgård</a> besøg af den økologiske og biodynamiske producent <a href="http://hedeager.info">Hedeager</a> fra Ølgod. Chriss vil fra kl. 16:00-17:30 sælge direkte til ØFFE's medlemmer fra sin salgsvogn af et <a href="https://smagdanmark.com/hedeager">spændende udvælg af ost, kød og røgvarer</a>. Se <a href="http://www.jv.dk/esbjerg/OeFFE-faar-gris-paa-gaflen/artikel/2512736">omtale i JydskeVestkysten</a>.
+                </p>
+        <h3>2017-05-16</h3>
+        <p>
          Kartofler er nu også udsolgt fra Varde Ådal Lam, og jordskokkerne hos Ligéa og Kim i Årre er begyndt at spirre, så disse kan ikke længere bestilles. Vi glæder os over det varmere vejr, og at den kommende høst er i fuld gang med at samle saft og kraft i jorden.
-		</p>
-		<h3>2017-03-20</h3>
-		<p>
+        </p>
+
+        <p>
+            <a id="nytknp" onclick="var glnyt=getElementById('gammelnyt'); glnyt.style.display=(glnyt.style.display=='none'?'block':'none');getElementById('nytknp').innerHTML=(glnyt.style.display=='none'?'Se tidligere nyheder':'Luk tidligere nyheder')">Se tidligere nyheder</a>
+        </p>
+      </div>
+      <div id="gammelnyt" class="col-lg-12" style="display:none">
+
+        <h3>2017-03-20</h3>
+        <p>
          ØFFE's primære leverandør af grøntsager, Varde Ådal Lam, kan desværre ikke længere levere gulerødder og pastinakker, hvorfor disse ikke længere kan bestilles. Dog har vi fået mulighed for at aftage jordskokker fra Ligéa og Kim i Årre, som nu kan bestilles til udleveringen i uge 13. Vi ser frem til at 2017-sæsonen starter, så der igen kan komme mere varieret og frisk sprødhed på bordet. Se <a href="#bestil">bestilling</a>.
 		</p>
 		<p>
-		  <a onclick="var form=getElementById('gammelnyt'); form.style.display=(form.style.display=='none'?'block':'none');">Tidligere nyheder</a>
 		</p>
-      </div>
-      <div id="gammelnyt" class="col-lg-12" style="display:none">
 		<h3>2017-02-09</h3>
 		<p>
 		  Fra og med uge 7 foregår udlevering på torsdage i ulige uger, mod tidligere lige uger. Derudover er der tilføjet to nye udleveringssteder så varer nu kan afhentes på både Midtgård (Guldager) samt i Hjerting (ny), Østerbyen og Tjæreborg (ny). I tillæg er bestillingsperioden udvidet, således at der kan bestilles helt frem til søndag aften, hvor udlevering foregår torsdagen efter. Se <a href="#bestil">bestilling</a>.
@@ -257,20 +274,23 @@
                   <input type="submit" value="Bestil">
                 </p>
               </form>
+              <p>
+                  Ved bestilling modtager du en email med en kvittering og yderligere instruktioner på den kvitteringsemail du angiver ovenfor.
+              </p>
             </div>
           </div>
 
-            <div class="row">
+          <div class="row">
               <div class="col-lg-12">
-		<p>
-		  Ved bestilling modtager du en email med en kvittering og yderligere instruktioner på den kvitteringsemail du angiver ovenfor. Bestillinger kan foretages indtil søndag før udlevering (dvs. i lige uger) kl. 18, dine varer vil så være klar på det valgte udleveringssted den efterfølgende torsdag i det tidsrum der er angivet i listen ovenfor.
-		</p>
-		<p>
-		  Vi forventer på sigt at opbygge en reel webbutik, men indtil den er i drift sker bestilling ved at du bruger formularen ovenfor til at definere din ordre, og derefter manuelt overfører det samlede beløb via en af de under <a href="#betaling">betaling</a> angivne metoder.
-		</p>
-	      </div>
-	    </div>
-	</div>
+                  <p>
+                      Bestillinger kan foretages indtil søndag før udlevering (dvs. i lige uger) kl. 18, dine varer vil så være klar på det valgte udleveringssted den efterfølgende torsdag i det tidsrum der er angivet i listen ovenfor.
+                  </p>
+                  <p>
+                      Vi forventer på sigt at opbygge en reel webbutik, men indtil den er i drift sker bestilling ved at du bruger formularen ovenfor til at definere din ordre, og derefter manuelt overfører det samlede beløb via en af de under <a href="#betaling">betaling</a> angivne metoder.
+                  </p>
+              </div>
+          </div>
+      </div>
     </section>
 
     <!-- Arbejdsgrupper Section -->
@@ -334,13 +354,13 @@
                 <div class="col-lg-12 text-center">
                     <!-- To configure the contact form email address, go to mail/contact_me.php and update the email address in the PHP file on line 19. -->
                     <!-- The form should work on most web servers, but if the form is not working you may need to configure your web server differently. -->
-		    <h3>Formaliteter</h3>
-		    <p>
-		      <strong>Formelt navn:</strong> ØFFE<br>
-		      <strong>CVR nummer:</strong> <a href="https://datacvr.virk.dk/data/visenhed?enhedstype=virksomhed&id=37466336">37466336</a><br>
-		      <strong>Virksomhedstype:</strong> Frivillig forening<br>
-         <strong>Stiftet:</strong> 2016-01-13 (<a href="ØFFE vedtægter 2016-01-13.pdf">gældende vedtægter</a>)<br>
-		    </p>
+            <h3>Formaliteter</h3>
+            <p>
+              <strong>Formelt navn:</strong> ØFFE<br>
+              <strong>CVR nummer:</strong> <a href="https://datacvr.virk.dk/data/visenhed?enhedstype=virksomhed&id=37466336">37466336</a><br>
+              <strong>Virksomhedstype:</strong> Frivillig forening<br>
+              <strong>Stiftet:</strong> 2016-01-13 (<a href="ØFFE vedtægter 2016-01-13.pdf">gældende vedtægter</a>)<br>
+            </p>
 
 		    <h3 id="bestyrelse">Bestyrelse</h3>
 		    <p>
@@ -355,30 +375,25 @@
 
 		    <h3 id="referater">Referater</h3>
 		    <p>
-                <ul>
-                    <li><a href="ØFFE Generalforsamling 2017-04-26.pdf">Ordinær generalforsamling, 2017-04-26</a></li>
-                    <li><a href="ØFFE referat fra stiftende generalforsamling 2016-01-13.pdf">Stiftende generalforsamling, 2016-01-13</a></li>
-                </ul>
+                <a href="ØFFE Generalforsamling 2017-04-26.pdf">Ordinær generalforsamling, 2017-04-26</a><br>
+                <a href="ØFFE referat fra stiftende generalforsamling 2016-01-13.pdf">Stiftende generalforsamling, 2016-01-13</a>
 		    </p>
 
 		    <h3 id="betaling">Betaling</h3>
 		    <p>
-		      <strong>Bankoverførsel:</strong> Merkur Andelskasse, reg. nr. <strong>8401</strong>, konto nr.: <strong>1296559</strong>
-		      <br>
-		      <strong>MobilePay:</strong> ?? ?? ?? ?? (formentlig på vej)
+	          <strong>Bankoverførsel:</strong> Merkur Andelskasse, reg. nr. <strong>8401</strong>, konto nr.: <strong>1296559</strong>
 		    </p>
 
-		    <h3 id="kontakt">Kontakt</h3>
-		    <p>
-		      <strong>Email:</strong> <a href="mailto:oeffesbjerg@gmail.com">oeffesbjerg@gmail.com</a><br>
-		      <strong>Facebook:</strong> <a href="https://www.facebook.com/groups/997317766980298/">facebook.com/groups/997317766980298/</a><br>
-         <strong>Facebook (for medlemmer):</strong> <a href="https://www.facebook.com/groups/198925413910094/">www.facebook.com/groups/198925413910094/</a><br>
+            <h3 id="kontakt">Kontakt</h3>
+            <p>
+                <strong>Email:</strong> <a href="mailto:oeffesbjerg@gmail.com">oeffesbjerg@gmail.com</a><br>
+                <strong>Facebook-side:</strong> <a href="https://www.facebook.com/OEFFE.Esbjerg/">facebook.com/OEFFE.Esbjerg/</a><br>
+                <strong>Facebook-gruppe (for medlemmer):</strong> <a href="https://www.facebook.com/groups/198925413910094/">facebook.com/groups/198925413910094/</a><br>
 
-         <strong>Formandens telefonnummer:</strong> 91 94 71 19 (benyt venligst skriftlig henvendelse hvis muligt)<br>
-
-		    </p>
-                </div>
-            </div>
+                <strong>Formandens telefonnummer:</strong> 91 94 71 19 (benyt venligst skriftlig henvendelse hvis muligt)<br>
+            </p>
+        </div>
+        </div>
         </div>
     </section>
 
@@ -400,7 +415,7 @@
                         <h3>På Nettet</h3>
                         <ul class="list-inline">
                             <li>
-                                <a href="https://www.facebook.com/groups/997317766980298/" class="btn-social btn-outline"><i class="fa fa-fw fa-facebook"></i></a>
+                                <a href="https://www.facebook.com/OEFFE.Esbjerg/" class="btn-social btn-outline"><i class="fa fa-fw fa-facebook"></i></a> 
                             </li>
                             <li>
                                 <a href="mailto:oeffesbjerg@gmail.com" class="btn-social btn-outline"><i class="fa fa-fw fa-envelope"></i></a>
