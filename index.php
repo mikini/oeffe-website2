@@ -131,7 +131,7 @@
             <div class="col-lg-12" id="nytnyt">
                 <h3>2017-06-08</h3>
                 <p>
-                    Sortimentet til udleveringen i uge 25 (torsdag d. 22/6-2017) vil indeholde en spændende nyhed, nemlig 4 varianter af økolgisk brød fra <a href="">BRØDkoncept</a> i Aulum. BRØDkoncept går op i traditionelt håndværk og processer, blandt andet ved brug af stenmølle-malet mel, surdej og koldhævning. Hos ØFFE ser vi frem til at stifte nærmere bekendtskab med produkterne.
+                    Sortimentet til udleveringen i uge 25 (torsdag d. 22/6-2017) vil indeholde en spændende nyhed, nemlig 4 varianter af økologisk brød fra <a href="http://brødkoncept.dk/">BRØDkoncept</a> i Aulum. BRØDkoncept går op i traditionelt håndværk og processer, blandt andet ved brug af stenmølle-malet mel, surdej og koldhævning. Hos ØFFE ser vi frem til at stifte nærmere bekendtskab med produkterne.
                 </p>
                 <h3>2017-06-07</h3>
                 <p>
