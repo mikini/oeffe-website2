@@ -388,7 +388,7 @@
             <p>
                 <strong>Email:</strong> <a href="mailto:oeffesbjerg@gmail.com">oeffesbjerg@gmail.com</a><br>
                 <strong>Facebook-side:</strong> <a href="https://www.facebook.com/OEFFE.Esbjerg/">facebook.com/OEFFE.Esbjerg/</a><br>
-                <strong>Facebook-gruppe (for medlemmer):</strong> <a href="https://www.facebook.com/groups/198925413910094/">facebook.com/groups/198925413910094/</a><br>
+                <strong>Facebook-gruppe (for medlemmer):</strong> <a href="https://www.facebook.com/groups/OEFFE.medlem/">facebook.com/groups/OEFFE.medlem/</a><br>
 
                 <strong>Formandens telefonnummer:</strong> 91 94 71 19 (benyt venligst skriftlig henvendelse hvis muligt)<br>
             </p>
