@@ -516,4 +516,36 @@ var goods=[
         ,{"name":"Fuldkornsboller, 6 stk.","unit":"poser", "price":35, "imageurl":"http://brødkoncept.dk/lev129/ill/smaa/b7.jpg", "largeimageurl":"http://brødkoncept.dk/lev129/ill/b7.jpg"}
      ]
     }
+    ,{"week": 29,
+     "year": 2017,
+     "items":[
+	 {"group":"Grøntsager", "description":"Økologiske og lokale varer fra bl. a. <a href='http://www.vardeaadallam.dk'>Varde Ådal Lam</a> og Æblehøjen ved Ligéa og Kim i Årre."}
+//	 {"group":"Grøntsager", "description":"Økologiske og lokale varer fra bl. a. <a href='http://www.vardeaadallam.dk'>Varde Ådal Lam</a>.                       "}
+        ,{"name":"Kartofler","unit":"1,5 kg.", "price":20}
+	   //"description":"Nye og friske kartofler fra Varde Ådal Lam"}
+	,{"name":"Majroer","unit":"kg.", "price":9}
+	,{"name":"Løg","unit":"kg.", "price":9}
+	,{"name":"Gulerødder","unit":"kg.", "price":9}
+        ,{"name":"Palmekål","unit":"250 g", "price":18}
+        ,{"group":"Æg", "description":"Størrelsen er M/L, leveres gennemlyste og datostemplede som reglerne foreskriver ved detailsalg. Køber man som privat direkte fra producenten er reglerne mindre restriktive."}
+	,{"name":"Æg, 6 stk","unit":"bakker", "price":20}
+	,{"name":"Æg, 15 stk","unit":"bakker", "price":40}
+	,{"name":"Æg, 30 stk","unit":"bakker", "price":75}
+        ,{"group":"Kornprodukter", "description":"Økologiske, biodynamiske og Demeter-mærkede kornprodukter fra <a href='http://www.melfraforum.dk/'>Mel fra Forum</a>."}
+	,{"name":"Ølandshvede, 1 kg","unit":"poser", "price":22}
+	,{"name":"Fint Ølandshvede, 1 kg","unit":"poser", "price":22}
+	,{"name":"Vårrug, 1 kg","unit":"poser", "price":22, "description":"knækkede rugkerner"}
+	,{"name":"Ølandsperler, 1 kg","unit":"poser", "price":22}
+	,{"name":"Jomfrubygperler, 1 kg","unit":"poser", "price":22}
+	,{"name":"Svedjerug, 1 kg","unit":"poser", "price":22}
+	,{"name":"Havregryn, 0,8 kg","unit":"poser", "price":22}
+        ,{"group":"Øvrige lækkerier"}
+	,{"name":"Æblemost, frossen,  2,5 liter","unit":"dunke", "price":50, "description":"med en smule frugtkød, optøet efter ca. 1 døgn, derefter holdbar 3-4 døgn, fra Frederik Rahbeks plantage på <a href='http://www.forumlund.dk/'>Forumlund</a>"}
+        ,{"group":"Brød", "description":"Økologiske brødprodukter af stenmølle-malet mel, surdej og koldhævet fra <a href='http://brødkoncept.dk/'>BRØDkoncept</a>. Skal færdigbages ca. 20 minutter efter anvisning på emballagen."}
+        ,{"name":"Hvedebrød","unit":"stk", "price":35, "imageurl":"http://brødkoncept.dk/lev129/ill/smaa/b1.jpg", "largeimageurl":"http://brødkoncept.dk/lev129/ill/b1.jpg"}
+        ,{"name":"100% Speltbrød", "description":"bagt udelukkende med speltmel", "imageurl":"http://brødkoncept.dk/lev129/ill/smaa/b4.jpg", "largeimageurl":"http://brødkoncept.dk/lev129/ill/b4.jpg", "unit":"stk", "price":45}
+        ,{"name":"Rugbrød","unit":"stk", "price":35, "imageurl":"http://brødkoncept.dk/lev129/ill/smaa/b6.jpg", "largeimageurl":"http://brødkoncept.dk/lev129/ill/b6.jpg"}
+        ,{"name":"Fuldkornsboller, 6 stk.","unit":"poser", "price":35, "imageurl":"http://brødkoncept.dk/lev129/ill/smaa/b7.jpg", "largeimageurl":"http://brødkoncept.dk/lev129/ill/b7.jpg"}
+     ]
+    }
 ];
