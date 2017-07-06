@@ -129,10 +129,21 @@
             </div>
         <div class="row">
             <div class="col-lg-12" id="nytnyt">
+                <h3>2017-07-07</h3>
+                <p>
+         ØFFE planlægger en fællestur til <a href="http://www.forumlund.dk/">Forumlund</a> for at plukke solbær sidst i juli. Hvis du er interesseret i at deltage, meld venligst tilbage på <a href="mailto:oeffesbjerg@gmail.com?subject=Solbær er bare dejlige">oeffesbjerg@gmail.com</a> eller giv lyd via <a href="https://www.facebook.com/OEFFE.Esbjerg/">Facebook</a>. Se også <a href="https://www.facebook.com/OEFFE.Esbjerg/posts/306699113124853">opslag angående turen på Facebook</a>
+                </p>
                 <h3>2017-06-08</h3>
                 <p>
                     Sortimentet til udleveringen i uge 25 (torsdag d. 22/6-2017) vil indeholde en spændende nyhed, nemlig 4 varianter af økologisk brød fra <a href="http://brødkoncept.dk/">BRØDkoncept</a> i Aulum. BRØDkoncept går op i traditionelt håndværk og processer, blandt andet ved brug af stenmølle-malet mel, surdej og koldhævning. Hos ØFFE ser vi frem til at stifte nærmere bekendtskab med produkterne.
                 </p>
+
+        <p>
+            <a id="nytknp" onclick="var glnyt=getElementById('gammelnyt'); glnyt.style.display=(glnyt.style.display=='none'?'block':'none');getElementById('nytknp').innerHTML=(glnyt.style.display=='none'?'Se tidligere nyheder':'Luk tidligere nyheder')">Se tidligere nyheder</a>
+        </p>
+      </div>
+      <div id="gammelnyt" class="col-lg-12" style="display:none">
+
                 <h3>2017-06-07</h3>
                 <p>
                      ØFFE får til udleveringen d. 8. juni på <a href="">Midtgård</a> besøg af den økologiske og biodynamiske producent <a href="http://hedeager.info">Hedeager</a> fra Ølgod. Chriss vil fra kl. 16:00-17:30 sælge direkte til ØFFE's medlemmer fra sin salgsvogn af et <a href="https://smagdanmark.com/hedeager">spændende udvælg af ost, kød og røgvarer</a>. Se <a href="http://www.jv.dk/esbjerg/OeFFE-faar-gris-paa-gaflen/artikel/2512736">omtale i JydskeVestkysten</a>.
@@ -141,13 +152,6 @@
         <p>
          Kartofler er nu også udsolgt fra Varde Ådal Lam, og jordskokkerne hos Ligéa og Kim i Årre er begyndt at spirre, så disse kan ikke længere bestilles. Vi glæder os over det varmere vejr, og at den kommende høst er i fuld gang med at samle saft og kraft i jorden.
         </p>
-
-        <p>
-            <a id="nytknp" onclick="var glnyt=getElementById('gammelnyt'); glnyt.style.display=(glnyt.style.display=='none'?'block':'none');getElementById('nytknp').innerHTML=(glnyt.style.display=='none'?'Se tidligere nyheder':'Luk tidligere nyheder')">Se tidligere nyheder</a>
-        </p>
-      </div>
-      <div id="gammelnyt" class="col-lg-12" style="display:none">
-
         <h3>2017-03-20</h3>
         <p>
          ØFFE's primære leverandør af grøntsager, Varde Ådal Lam, kan desværre ikke længere levere gulerødder og pastinakker, hvorfor disse ikke længere kan bestilles. Dog har vi fået mulighed for at aftage jordskokker fra Ligéa og Kim i Årre, som nu kan bestilles til udleveringen i uge 13. Vi ser frem til at 2017-sæsonen starter, så der igen kan komme mere varieret og frisk sprødhed på bordet. Se <a href="#bestil">bestilling</a>.
