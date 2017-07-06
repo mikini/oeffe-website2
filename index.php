@@ -110,7 +110,7 @@
                         Som medlem har man mulighed for at bestille friske grøntsager og andre varer til udlevering hver 14. dag. Udlevering sker på torsdage i ulige uger fra ØFFE's fødevarekontrollerede lokaler på <a href="http://myrthue.esbjergkommune.dk/midtgaard.aspx">Midtgård</a> eller et af 3 andre udleveringssteder i Esbjerg.
                     </p>
                     <p>
-                        Foreningen drives udelukkende af dens medlemmer i fællesskab, og på en så åben og transparent måde som muligt. Dermed er det også en forudsætning for foreningens eksistens, at hvert medlem indimellem bidrager til dette.
+                        Foreningen drives udelukkende af dens medlemmer i fællesskab, og på en så åben og transparent måde som muligt. Dermed er det også en forudsætning for foreningens eksistens, at der er tilpas mange medlemmer der ønsker at bidrage med deres arbejdskraft til dette.
                     </p>
                     <img style="display: block; margin: 0 auto;" class="img-rounded" src="ØFFE pose, lille.jpg" alt="Eksempel på varer fra ØFFE; persille, kartofler, gulerødder, løg, bolche-bede">
                 </div>
@@ -131,7 +131,7 @@
             <div class="col-lg-12" id="nytnyt">
                 <h3>2017-07-07</h3>
                 <p>
-         ØFFE planlægger en fællestur til <a href="http://www.forumlund.dk/">Forumlund</a> for at plukke solbær sidst i juli. Hvis du er interesseret i at deltage, meld venligst tilbage på <a href="mailto:oeffesbjerg@gmail.com?subject=Solbær er bare dejlige">oeffesbjerg@gmail.com</a> eller giv lyd via <a href="https://www.facebook.com/OEFFE.Esbjerg/">Facebook</a>. Se også <a href="https://www.facebook.com/OEFFE.Esbjerg/posts/306699113124853">opslag angående turen på Facebook</a>.
+                   Udvalget tiltager langsomt men støt, og vi glæder os over sommerens komme. ØFFE planlægger en fællestur til <a href="http://www.forumlund.dk/">Forumlund</a> for at plukke solbær sidst i juli. Hvis du er interesseret i at deltage, meld venligst tilbage på <a href="mailto:oeffesbjerg@gmail.com?subject=Solbær er bare dejlige">oeffesbjerg@gmail.com</a> eller giv lyd via <a href="https://www.facebook.com/OEFFE.Esbjerg/">Facebook</a>. Se også <a href="https://www.facebook.com/OEFFE.Esbjerg/posts/306699113124853">opslag angående turen på Facebook</a>.
                 </p>
                 <h3>2017-06-08</h3>
                 <p>
@@ -338,7 +338,7 @@
 		</p>
 		<h3>Vagtplan</h3>
 		<p>
-		  <a href="https://docs.google.com/spreadsheets/d/1q4PP7PwrlwjWE7fnIZGrY9fLvLWueL0otKDgPj9-BuM/edit#gid=0">Se vagtplanen for butik</a> i Google Docs, skriv dig gerne på opgaver.
+		  <a href="https://docs.google.com/spreadsheets/d/1q4PP7PwrlwjWE7fnIZGrY9fLvLWueL0otKDgPj9-BuM">Vagtplanen for udlevering</a> ligger i Google Docs, sammen med vejledninger for de enkelte vagttyper. Skriv dig endelig på opgaver hvis du har tid og lyst til at hjælpe.
 		</p>
 	      </div>
 	    </div>
