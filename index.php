@@ -131,7 +131,7 @@
             <div class="col-lg-12" id="nytnyt">
                 <h3>2017-07-07</h3>
                 <p>
-         ØFFE planlægger en fællestur til <a href="http://www.forumlund.dk/">Forumlund</a> for at plukke solbær sidst i juli. Hvis du er interesseret i at deltage, meld venligst tilbage på <a href="mailto:oeffesbjerg@gmail.com?subject=Solbær er bare dejlige">oeffesbjerg@gmail.com</a> eller giv lyd via <a href="https://www.facebook.com/OEFFE.Esbjerg/">Facebook</a>. Se også <a href="https://www.facebook.com/OEFFE.Esbjerg/posts/306699113124853">opslag angående turen på Facebook</a>
+         ØFFE planlægger en fællestur til <a href="http://www.forumlund.dk/">Forumlund</a> for at plukke solbær sidst i juli. Hvis du er interesseret i at deltage, meld venligst tilbage på <a href="mailto:oeffesbjerg@gmail.com?subject=Solbær er bare dejlige">oeffesbjerg@gmail.com</a> eller giv lyd via <a href="https://www.facebook.com/OEFFE.Esbjerg/">Facebook</a>. Se også <a href="https://www.facebook.com/OEFFE.Esbjerg/posts/306699113124853">opslag angående turen på Facebook</a>.
                 </p>
                 <h3>2017-06-08</h3>
                 <p>
