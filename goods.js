@@ -534,7 +534,8 @@ var goods=[
         ,{"group":"Kornprodukter", "description":"Økologiske, biodynamiske og Demeter-mærkede kornprodukter fra <a href='http://www.melfraforum.dk/'>Mel fra Forum</a>."}
 	,{"name":"Ølandshvede, 1 kg","unit":"poser", "price":22}
 	,{"name":"Fint Ølandshvede, 1 kg","unit":"poser", "price":22}
-	,{"name":"Vårrug, 1 kg","unit":"poser", "price":22, "description":"knækkede rugkerner"}
+	,{"name":"Vårrug, 1 kg","unit":"poser", "price":22}
+	//,{"name":"Knækkede rugkerner, 1 kg", "unit":"poser", "price":22}
 	,{"name":"Ølandsperler, 1 kg","unit":"poser", "price":22}
 	,{"name":"Jomfrubygperler, 1 kg","unit":"poser", "price":22}
 	,{"name":"Svedjerug, 1 kg","unit":"poser", "price":22}
