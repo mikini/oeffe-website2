@@ -480,7 +480,7 @@
         else
         {
             newItem.innerHTML='<p><label>'
-                +'<input type="number" min="0" max="10" value="0" style="width: 3em" name="'+item.name+'" id="'+item.name+'" onchange="calculateTotalPrice();" oninput="calculateTotalPrice();"/>'
+                +'<input type="number" min="0" max="10" value="0" style="width: 3em" name="'+item.name+', '+item.unit+'" id="'+item.name+'" onchange="calculateTotalPrice();" oninput="calculateTotalPrice();"/>'
                 +item.unit+' <font color="green">'+item.name+'</font> á '+item.price+' kr.'
                 +(item.description?'<br>'+item.description:'')
                 +(item.imageurl?'<br>'+(item.largeimageurl?'<a href="'+item.largeimageurl+'">':'')+'<img src="'+item.imageurl+'" class="img-rounded"/>'+(item.largeimageurl?'</a>':''):'')
