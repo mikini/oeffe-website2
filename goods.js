@@ -465,7 +465,7 @@ var goods=[
 	 {"group":"Grøntsager", "description":"Økologiske og lokale varer fra bl. a. <a href='http://www.vardeaadallam.dk'>Varde Ådal Lam</a> og Ligéa og Kim i Årre."}
 //	 {"group":"Grøntsager", "description":"Økologiske og lokale varer fra bl. a. <a href='http://www.vardeaadallam.dk'>Varde Ådal Lam</a>.                       "}
 	,{"name":"Løg","unit":"kg.", "price":9}
-        ,{"name":"Krydderurter","unit":"buketter", "price":15, "description":"En frisk buket krydderurter bestående af timian, oregano, rosmarin, purløg og mynte (billedet viser ca. 1/2 buket)", "imagebase":"img/goods/krydderurter"}
+        ,{"name":"Krydderurter","unit":"buketter", "price":15, "description":"En frisk buket krydderurter bestående af timian, oregano, rosmarin, purløg og mynte (billedet viser ca. 1/2 buket)", "imagebase":"krydderurter"}
         ,{"group":"Æg", "description":"Størrelsen er M/L, leveres gennemlyste og datostemplede som reglerne foreskriver ved detailsalg. Køber man som privat direkte fra producenten er reglerne mindre restriktive."}
 	,{"name":"Æg, 6 stk","unit":"bakker", "price":20}
 	,{"name":"Æg, 15 stk","unit":"bakker", "price":40}
@@ -494,7 +494,7 @@ var goods=[
 //	 {"group":"Grøntsager", "description":"Økologiske og lokale varer fra bl. a. <a href='http://www.vardeaadallam.dk'>Varde Ådal Lam</a>.                       "}
         ,{"name":"Nye kartofler","unit":"kg.", "price":25, "description":"Nye og friske kartofler fra Varde Ådal Lam"}
 	,{"name":"Løg","unit":"kg.", "price":9}
-        ,{"name":"Krydderurter","unit":"buketter", "price":15, "description":"En frisk buket krydderurter fra Æblehøjen bestående af forskellige typer efter sæson og udvalg (billedet viser ca. 1/2 buket)", "imagebase":"img/goods/krydderurter"}
+        ,{"name":"Krydderurter","unit":"buketter", "price":15, "description":"En frisk buket krydderurter fra Æblehøjen bestående af forskellige typer efter sæson og udvalg (billedet viser ca. 1/2 buket)", "imagebase":"krydderurter"}
         ,{"group":"Æg", "description":"Størrelsen er M/L, leveres gennemlyste og datostemplede som reglerne foreskriver ved detailsalg. Køber man som privat direkte fra producenten er reglerne mindre restriktive."}
 	,{"name":"Æg, 6 stk","unit":"bakker", "price":20}
 	,{"name":"Æg, 15 stk","unit":"bakker", "price":40}
@@ -548,5 +548,42 @@ var goods=[
         ,{"name":"Rugbrød","unit":"stk", "price":35, "imageurl":"http://brødkoncept.dk/lev129/ill/smaa/b6.jpg", "largeimageurl":"http://brødkoncept.dk/lev129/ill/b6.jpg"}
         ,{"name":"Fuldkornsboller, 6 stk.","unit":"poser", "price":35, "imageurl":"http://brødkoncept.dk/lev129/ill/smaa/b7.jpg", "largeimageurl":"http://brødkoncept.dk/lev129/ill/b7.jpg"}
      ]
+    }
+    ,{"week": 31,
+     "year": 2017,
+     "items":[
+	 {"group":"Grøntsager", "description":"Økologiske og lokale varer fra bl. a. <a href='http://www.vardeaadallam.dk'>Varde Ådal Lam</a> og Æblehøjen ved Ligéa og Kim i Årre."}
+	 ,{"name":"Gulerødder","unit":"7 stk.", "price":11, "imagebase":"vardeådal_gulerødder"}
+	   //"description":"Nye og friske kartofler fra Varde Ådal Lam"}
+	 ,{"name":"Løg","unit":"3 stk.", "price":11, "imagebase":"vardeådal_løg"}
+        ,{"name":"Kartofler","unit":"1 kg.", "price":11}
+	,{"name":"Majroe","unit":"1 stk.", "price":4}
+        ,{"name":"Krydderurter","unit":"buketter", "price":15, "description":"En frisk buket krydderurter fra Æblehøjen bestående af forskellige typer efter sæson og udvalg", "imagebase":"æblehøjen_krydderurter"}
+         ,{"name":"Palmekål","unit":"250 g", "price":18, "imagebase":"æblehøjen_palmekål"}
+         ,{"name":"Agurk","unit":"1 stk.", "price":14, "imagebase":"æblehøjen_agurk"}
+         ,{"name":"Fennikel","unit":"1 stk.", "price":19, "imagebase":"æblehøjen_fennikel"}
+         ,{"group":"Ormsiggaard-sortiment", "description":"Forskelligt grønt efter sæson og udvalg fra <a href='https://www.facebook.com/Ormsiggaard'>Ormsiggaard</a> ved Forum. Indholdet kunne være salater, squash, løg, bladbeder, bønner, spinat eller forskellige specialiteter som appelsintagetes og bronzefennikel (billedet viser udvalget i uge 29 som eksempel)."}
+         ,{"name":"Lille kasse","unit":"stk.", "price":55, "imagebase":"ormsiggaard_uge29_lille"}
+         ,{"name":"Stor kasse","unit":"stk.", "price":105, "imagebase":"ormsiggaard_uge29_stor"}
+        ,{"group":"Æg", "description":"Størrelsen er M/L, leveres gennemlyste og datostemplede som reglerne foreskriver ved detailsalg. Køber man som privat direkte fra producenten er reglerne mindre restriktive."}
+	,{"name":"Æg, 6 stk","unit":"bakker", "price":20}
+	,{"name":"Æg, 15 stk","unit":"bakker", "price":40}
+	,{"name":"Æg, 30 stk","unit":"bakker", "price":75}
+        ,{"group":"Kornprodukter", "description":"Økologiske, biodynamiske og Demeter-mærkede kornprodukter fra <a href='http://www.melfraforum.dk/'>Mel fra Forum</a>."}
+	,{"name":"Ølandshvede, 1 kg","unit":"poser", "price":22}
+	,{"name":"Fint Ølandshvede, 1 kg","unit":"poser", "price":22}
+	,{"name":"Svedjerug, 1 kg","unit":"poser", "price":22}
+        ,{"name":"Knækkede rugkerner, 1 kg", "unit":"poser", "price":22}
+	,{"name":"Ølandsperler, 1 kg","unit":"poser", "price":22}
+	,{"name":"Jomfrubygperler, 1 kg","unit":"poser", "price":22}
+	,{"name":"Havregryn, 0,8 kg","unit":"poser", "price":22}
+        ,{"group":"Øvrige lækkerier"}
+	,{"name":"Æblemost, frossen,  2,5 liter","unit":"dunke", "price":50, "description":"med en smule frugtkød, optøet efter ca. 1 døgn, derefter holdbar 3-4 døgn, fra Frederik Rahbeks plantage på <a href='http://www.forumlund.dk/'>Forumlund</a>"}
+        ,{"group":"Brød", "description":"Økologiske brødprodukter af stenmølle-malet mel, surdej og koldhævet fra <a href='http://brødkoncept.dk/'>BRØDkoncept</a>. Skal færdigbages ca. 20 minutter efter anvisning på emballagen."}
+        ,{"name":"Hvedebrød","unit":"stk", "price":35, "imageurl":"http://brødkoncept.dk/lev129/ill/smaa/b1.jpg", "largeimageurl":"http://brødkoncept.dk/lev129/ill/b1.jpg"}
+        ,{"name":"100% Speltbrød", "description":"bagt udelukkende med speltmel", "imageurl":"http://brødkoncept.dk/lev129/ill/smaa/b4.jpg", "largeimageurl":"http://brødkoncept.dk/lev129/ill/b4.jpg", "unit":"stk", "price":45}
+        ,{"name":"Rugbrød","unit":"stk", "price":35, "imageurl":"http://brødkoncept.dk/lev129/ill/smaa/b6.jpg", "largeimageurl":"http://brødkoncept.dk/lev129/ill/b6.jpg"}
+        ,{"name":"Fuldkornsboller, 6 stk.","unit":"poser", "price":35, "imageurl":"http://brødkoncept.dk/lev129/ill/smaa/b7.jpg", "largeimageurl":"http://brødkoncept.dk/lev129/ill/b7.jpg"}
+      ]
     }
 ];

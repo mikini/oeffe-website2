@@ -484,7 +484,7 @@
                 +item.unit+' <font color="green">'+item.name+'</font> á '+item.price+' kr.'
                 +(item.description?'<br>'+item.description:'')
                 +(item.imageurl?'<br>'+(item.largeimageurl?'<a href="'+item.largeimageurl+'">':'')+'<img src="'+item.imageurl+'" class="img-rounded"/>'+(item.largeimageurl?'</a>':''):'')
-                +(item.imagebase?'<br><a href="'+item.imagebase+'_600.jpg"><img src="'+item.imagebase+'_160.jpg" class="img-rounded"/></a>':'')
+                +(item.imagebase?'<br><a href="img/goods/'+item.imagebase+'_1200.jpg"><img src="img/goods/'+item.imagebase+'_160.jpg" class="img-rounded"/></a>':'')
                 +'</label></p>'
             ;
           totalPriceItems.push([item.name,item.price]);
