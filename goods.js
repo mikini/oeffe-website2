@@ -563,8 +563,8 @@ var goods=[
          ,{"name":"Agurk","unit":"1 stk.", "price":14, "imagebase":"æblehøjen_agurk"}
          ,{"name":"Fennikel","unit":"1 stk.", "price":19, "imagebase":"æblehøjen_fennikel"}
          ,{"group":"Ormsiggaard-sortiment", "description":"Forskelligt grønt efter sæson og udvalg fra <a href='https://www.facebook.com/Ormsiggaard'>Ormsiggaard</a> ved Forum. Indholdet kunne være salater, squash, løg, bladbeder, bønner, spinat eller forskellige specialiteter som appelsintagetes og bronzefennikel (billedet viser udvalget i uge 29 som eksempel)."}
-         ,{"name":"Lille kasse","unit":"stk.", "price":55, "imagebase":"ormsiggaard_uge29_lille"}
-         ,{"name":"Stor kasse","unit":"stk.", "price":105, "imagebase":"ormsiggaard_uge29_stor"}
+         ,{"name":"Ormsiggaard, lille sortiment","unit":"stk.", "price":55, "imagebase":"ormsiggaard_uge29_lille"}
+         ,{"name":"Ormsiggaard, stort sortiment","unit":"stk.", "price":105, "imagebase":"ormsiggaard_uge29_stor"}
         ,{"group":"Æg", "description":"Størrelsen er M/L, leveres gennemlyste og datostemplede som reglerne foreskriver ved detailsalg. Køber man som privat direkte fra producenten er reglerne mindre restriktive."}
 	,{"name":"Æg, 6 stk","unit":"bakker", "price":20}
 	,{"name":"Æg, 15 stk","unit":"bakker", "price":40}
