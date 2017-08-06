@@ -589,7 +589,7 @@ var goods=[
     ,{"week": 33,
      "year": 2017,
      "items":[
-          {"group":"Grøntsager - Vard Ådal Lam", "description":"Økologiske og lokale varer fra <a href='http://www.vardeaadallam.dk'>Varde Ådal Lam</a> ved Toftnæs mellem Alslev og Varde (<a href='http://www.openstreetmap.org/directions?route=55.5985%2C8.4255%3B55.5251%2C8.4381'>12 km. fra Midtgård</a>)."}
+          {"group":"Grøntsager - Varde Ådal Lam", "description":"Økologiske og lokale varer fra <a href='http://www.vardeaadallam.dk'>Varde Ådal Lam</a> ved Toftnæs mellem Alslev og Varde (<a href='http://www.openstreetmap.org/directions?route=55.5985%2C8.4255%3B55.5251%2C8.4381'>12 km. fra Midtgård</a>)."}
          ,{"name":"Gulerødder","unit":"7 stk.", "price":11, "imagebase":"vardeådal_gulerødder"}
          ,{"name":"Gulerødder, regnbuefarvede","unit":"7 stk.", "price":11}
          ,{"name":"Løg","unit":"3 stk.", "price":11, "imagebase":"vardeådal_løg"}
