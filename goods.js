@@ -609,16 +609,16 @@ var goods=[
          ,{"name":"Squash, lille","unit":"1 stk.", "price":9}
          ,{"name":"Squash, stor","unit":"1 stk.", "price":12}
 
-         ,{"group":"Grøntsager - Ormsiggaard-sortiment", "description":"Forskelligt grønt efter sæson og udvalg fra <a href='https://www.facebook.com/Ormsiggaard'>Ormsiggaard</a> ved Forum (<a href='http://www.openstreetmap.org/directions?route=55.56223%2C8.46841%3B55.52513%2C8.43806'>7 km. fra Midtgård</a>). Indholdet kunne være salater, squash, løg, bladbeder, bønner, spinat eller forskellige specialiteter som appelsintagetes og bronzefennikel (billedet viser udvalget i uge 29 som eksempel)."}
+         ,{"group":"Grøntsager - Ormsiggaard-sortiment", "description":"Forskelligt biodynamiskt grønt efter sæson og udvalg fra <a href='https://www.facebook.com/Ormsiggaard'>Ormsiggaard</a> ved Forum (<a href='http://www.openstreetmap.org/directions?route=55.56223%2C8.46841%3B55.52513%2C8.43806'>7 km. fra Midtgård</a>).<br>Indholdet kunne være salater, squash, løg, bladbeder, bønner, spinat eller forskellige specialiteter som appelsintagetes og bronzefennikel (billedet viser udvalget i uge 29 som eksempel)."}
          ,{"name":"Ormsiggaard, lille sortiment","unit":"stk.", "price":55, "imagebase":"ormsiggaard_uge29_lille"}
          ,{"name":"Ormsiggaard, stort sortiment","unit":"stk.", "price":105, "imagebase":"ormsiggaard_uge29_stor"}
 
-         ,{"group":"Æg", "description":"Fra <a href='http://www.vardeaadallam.dk'>Varde Ådal Lam</a> ved Toftnæs mellem Alslev og Varde (<a href='http://www.openstreetmap.org/directions?route=55.5985%2C8.4255%3B55.5251%2C8.4381'>12 km. fra Midtgård</a>). Størrelsen er M/L, leveres gennemlyste og datostemplede som reglerne foreskriver ved detailsalg. Køber man som privat direkte fra producenten er reglerne mindre restriktive."}
+         ,{"group":"Æg - Varde Ådal Lam", "description":"Fra <a href='http://www.vardeaadallam.dk'>Varde Ådal Lam</a> ved Toftnæs mellem Alslev og Varde (<a href='http://www.openstreetmap.org/directions?route=55.5985%2C8.4255%3B55.5251%2C8.4381'>12 km. fra Midtgård</a>). Størrelsen er M/L, leveres gennemlyste og datostemplede som reglerne foreskriver ved detailsalg. Køber man som privat direkte fra producenten er reglerne mindre restriktive."}
          ,{"name":"Æg, 6 stk","unit":"bakker", "price":20}
          ,{"name":"Æg, 15 stk","unit":"bakker", "price":40}
          ,{"name":"Æg, 30 stk","unit":"bakker", "price":75}
 
-         ,{"group":"Kornprodukter", "description":"Økologiske, biodynamiske og Demeter-mærkede kornprodukter leveret af <a href='http://www.melfraforum.dk/'>Mel fra Forum</a> ved Forum (<a href='http://www.openstreetmap.org/directions?route=55.5607%2C8.4729%3B55.5251%2C8.4381'>7 km fra Midtgård</a>)."}
+         ,{"group":"Kornprodukter - Mel fra Forum", "description":"Økologiske, biodynamiske og Demeter-mærkede kornprodukter leveret af <a href='http://www.melfraforum.dk/'>Mel fra Forum</a> ved Forum (<a href='http://www.openstreetmap.org/directions?route=55.5607%2C8.4729%3B55.5251%2C8.4381'>7 km fra Midtgård</a>)."}
          ,{"name":"Ølandshvede, 1 kg","unit":"poser", "price":22}
          ,{"name":"Fint Ølandshvede, 1 kg","unit":"poser", "price":22}
          ,{"name":"Svedjerug, 1 kg","unit":"poser", "price":22}
@@ -627,10 +627,10 @@ var goods=[
          ,{"name":"Jomfrubygperler, 1 kg","unit":"poser", "price":22}
          ,{"name":"Havregryn, 0,8 kg","unit":"poser", "price":22}
 
-         ,{"group":"Øvrige lækkerier"}
-         ,{"name":"Æblemost, frossen,  2,5 liter","unit":"dunke", "price":50, "description":"med en smule frugtkød, optøet efter ca. 1 døgn, derefter holdbar 3-4 døgn, fra Frederik Rahbeks plantage på <a href='http://www.forumlund.dk/'>Forumlund</a>"}
+         ,{"group":"Øvrige lækkerier - Forumlund", "description":"Fra Frederik Rahbeks plantage på <a href='http://www.forumlund.dk/'>Forumlund</a> ved Forum (<a href='http://www.openstreetmap.org/directions?route=55.57487%2C8.49160%3B55.52513%2C8.43806'>8 km fra Midtgård</a>)"}
+         ,{"name":"Æblemost, frossen,  2,5 liter","unit":"dunke", "price":50, "description":"med en smule frugtkød, optøet efter ca. 1 døgn, derefter holdbar 3-4 døgn"}
 
-         ,{"group":"Brød", "description":"Økologiske brødprodukter af stenmølle-malet mel, surdej og koldhævet fra <a href='http://brødkoncept.dk/'>BRØDkoncept</a> ved Aulum, Herning (<a href='http://www.openstreetmap.org/directions?route=56.2618%2C8.7846%3B55.5251%2C8.4381'>93 km. fra Midtgård</a>, fragtes af PostNord). Skal færdigbages ca. 20 minutter efter anvisning på emballagen."}
+         ,{"group":"Halvfærdigt brød - BRØDkoncept", "description":"Økologiske brødprodukter af stenmølle-malet mel, surdej og koldhævet fra <a href='http://brødkoncept.dk/'>BRØDkoncept</a> ved Aulum, Herning (<a href='http://www.openstreetmap.org/directions?route=56.2618%2C8.7846%3B55.5251%2C8.4381'>93 km. fra Midtgård</a>, fragtes af PostNord). Skal færdigbages ca. 20 minutter efter anvisning på emballagen."}
          ,{"name":"Hvedebrød","unit":"stk", "price":35, "imageurl":"http://brødkoncept.dk/lev129/ill/smaa/b1.jpg", "largeimageurl":"http://brødkoncept.dk/lev129/ill/b1.jpg"}
          ,{"name":"100% Speltbrød", "description":"bagt udelukkende med speltmel", "imageurl":"http://brødkoncept.dk/lev129/ill/smaa/b4.jpg", "largeimageurl":"http://brødkoncept.dk/lev129/ill/b4.jpg", "unit":"stk", "price":45}
          ,{"name":"Rugbrød","unit":"stk", "price":35, "imageurl":"http://brødkoncept.dk/lev129/ill/smaa/b6.jpg", "largeimageurl":"http://brødkoncept.dk/lev129/ill/b6.jpg"}
