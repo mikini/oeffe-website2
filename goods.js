@@ -597,7 +597,8 @@ var goods=[
          ,{"name":"Kartofler, sort: Sava","unit":"1 kg.", "price":11}
          ,{"name":"Squash","unit":"1 stk.", "price":6}
          ,{"name":"Rødbeder","unit":"5 stk.", "price":11}
-         ,{"name":"Rødbeder, gule/stribede","unit":"5 stk.", "price":11}
+         ,{"name":"Rødbeder, gule","unit":"5 stk.", "price":11}
+         ,{"name":"Rødbeder, stribede","unit":"5 stk.", "price":11}
 
          ,{"group":"Grøntsager - Æblehøjen", "description":"Økologiske, dyrket biodynamisk men endnu ikke certificeret, og lokale varer fra Æblehøjen ved Ligéa og Kim mellem Årre og Fåborg (<a href='http://www.openstreetmap.org/directions?route=55.5657%2C8.7303%3B55.5251%2C8.4381'>25 km. fra Midtgård</a>)."}
          ,{"name":"Krydderurter","unit":"buketter", "price":15, "description":"En frisk buket krydderurter fra Æblehøjen bestående af forskellige typer efter sæson og udvalg", "imagebase":"æblehøjen_krydderurter"}
