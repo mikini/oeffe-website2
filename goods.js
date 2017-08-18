@@ -638,4 +638,54 @@ var goods=[
          ,{"name":"Fuldkornsboller, 6 stk.","unit":"poser", "price":35, "imageurl":"http://brødkoncept.dk/lev129/ill/smaa/b7.jpg", "largeimageurl":"http://brødkoncept.dk/lev129/ill/b7.jpg"}
       ]
     }
+    ,{"week": 35,
+     "year": 2017,
+     "items":[
+          {"group":"Grøntsager - Varde Ådal Lam", "description":"Økologiske og lokale varer fra <a href='http://www.vardeaadallam.dk'>Varde Ådal Lam</a> ved Toftnæs mellem Alslev og Varde (<a href='http://www.openstreetmap.org/directions?route=55.5985%2C8.4255%3B55.5251%2C8.4381'>12 km. fra Midtgård</a>)."}
+         ,{"name":"Gulerødder","unit":"7 stk.", "price":11, "imagebase":"vardeådal_gulerødder"}
+         ,{"name":"Gulerødder, regnbuefarvede","unit":"7 stk.", "price":11}
+         ,{"name":"Løg","unit":"3 stk.", "price":11, "imagebase":"vardeådal_løg"}
+         ,{"name":"Løg, røde","unit":"3 stk.", "price":11}
+         ,{"name":"Kartofler, sort: Sava","unit":"1 kg.", "price":11}
+         ,{"name":"Squash","unit":"1 stk.", "price":6}
+         ,{"name":"Rødbeder","unit":"5 stk.", "price":11}
+         ,{"name":"Rødbeder, gule","unit":"5 stk.", "price":11}
+         ,{"name":"Rødbeder, stribede","unit":"5 stk.", "price":11}
+
+         ,{"group":"Grøntsager - Æblehøjen", "description":"Økologiske, dyrket biodynamisk men endnu ikke certificeret, og lokale varer fra Æblehøjen ved Ligéa og Kim mellem Årre og Fåborg (<a href='http://www.openstreetmap.org/directions?route=55.5657%2C8.7303%3B55.5251%2C8.4381'>25 km. fra Midtgård</a>)."}
+         ,{"name":"Krydderurter","unit":"buketter", "price":15, "description":"En frisk buket krydderurter fra Æblehøjen bestående af forskellige typer efter sæson og udvalg", "imagebase":"æblehøjen_krydderurter"}
+         ,{"name":"Palmekål","unit":"250 g", "price":18, "imagebase":"æblehøjen_palmekål"}
+         ,{"name":"Agurk","unit":"1 stk.", "price":14, "imagebase":"æblehøjen_agurk"}
+         ,{"name":"Tomater","unit":"400 g.", "price":22}
+         ,{"name":"Kartofler, sort: Bellinda","unit":"1 kg.", "price":16}
+         ,{"name":"Kartofler, sort: Jelly","unit":"1 kg.", "price":16}
+         ,{"name":"Squash, lille","unit":"1 stk.", "price":9}
+         ,{"name":"Squash, stor","unit":"1 stk.", "price":12}
+//         ,{"name":"Korianderfrø","unit":"1 pose", "price":100}
+
+         ,{"group":"Grøntsager - Ormsiggaard-sortiment", "description":"Forskelligt biodynamiskt grønt efter sæson og udvalg fra <a href='https://www.facebook.com/Ormsiggaard'>Ormsiggaard</a> ved Forum (<a href='http://www.openstreetmap.org/directions?route=55.56223%2C8.46841%3B55.52513%2C8.43806'>7 km. fra Midtgård</a>).<br>Indholdet kunne være salater, squash, løg, bladbeder, bønner, spinat eller forskellige specialiteter som appelsintagetes og bronzefennikel (billedet viser udvalget i uge 29 som eksempel)."}
+         ,{"name":"Ormsiggaard, lille sortiment","unit":"stk.", "price":55, "imagebase":"ormsiggaard_uge29_lille"}
+         ,{"name":"Ormsiggaard, stort sortiment","unit":"stk.", "price":105, "imagebase":"ormsiggaard_uge29_stor"}
+
+         ,{"group":"Æg - Varde Ådal Lam", "description":"Fra <a href='http://www.vardeaadallam.dk'>Varde Ådal Lam</a> ved Toftnæs mellem Alslev og Varde (<a href='http://www.openstreetmap.org/directions?route=55.5985%2C8.4255%3B55.5251%2C8.4381'>12 km. fra Midtgård</a>). Størrelsen er M/L, leveres gennemlyste og datostemplede som reglerne foreskriver ved detailsalg. Køber man som privat direkte fra producenten er reglerne mindre restriktive."}
+         ,{"name":"Æg, 6 stk","unit":"bakker", "price":20}
+         ,{"name":"Æg, 15 stk","unit":"bakker", "price":40}
+         ,{"name":"Æg, 30 stk","unit":"bakker", "price":75}
+
+         ,{"group":"Kornprodukter - Mel fra Forum", "description":"Økologiske, biodynamiske og Demeter-mærkede kornprodukter leveret af <a href='http://www.melfraforum.dk/'>Mel fra Forum</a> ved Forum (<a href='http://www.openstreetmap.org/directions?route=55.5607%2C8.4729%3B55.5251%2C8.4381'>7 km fra Midtgård</a>)."}
+         ,{"name":"Ølandshvede, 1 kg","unit":"poser", "price":22}
+         ,{"name":"Fint Ølandshvede, 1 kg","unit":"poser", "price":22}
+         ,{"name":"Svedjerug, 1 kg","unit":"poser", "price":22}
+         ,{"name":"Knækkede rugkerner, 1 kg", "unit":"poser", "price":22}
+         ,{"name":"Ølandsperler, 1 kg","unit":"poser", "price":22}
+         ,{"name":"Jomfrubygperler, 1 kg","unit":"poser", "price":22}
+         ,{"name":"Havregryn, 0,8 kg","unit":"poser", "price":22}
+
+         ,{"group":"Halvfærdigt brød - BRØDkoncept", "description":"Økologiske brødprodukter af stenmølle-malet mel, surdej og koldhævet fra <a href='http://brødkoncept.dk/'>BRØDkoncept</a> ved Aulum, Herning (<a href='http://www.openstreetmap.org/directions?route=56.2618%2C8.7846%3B55.5251%2C8.4381'>93 km. fra Midtgård</a>, fragtes af PostNord). Skal færdigbages ca. 20 minutter efter anvisning på emballagen."}
+         ,{"name":"Hvedebrød","unit":"stk", "price":35, "imageurl":"http://brødkoncept.dk/lev129/ill/smaa/b1.jpg", "largeimageurl":"http://brødkoncept.dk/lev129/ill/b1.jpg"}
+         ,{"name":"100% Speltbrød", "description":"bagt udelukkende med speltmel", "imageurl":"http://brødkoncept.dk/lev129/ill/smaa/b4.jpg", "largeimageurl":"http://brødkoncept.dk/lev129/ill/b4.jpg", "unit":"stk", "price":45}
+         ,{"name":"Rugbrød","unit":"stk", "price":35, "imageurl":"http://brødkoncept.dk/lev129/ill/smaa/b6.jpg", "largeimageurl":"http://brødkoncept.dk/lev129/ill/b6.jpg"}
+         ,{"name":"Fuldkornsboller, 6 stk.","unit":"poser", "price":35, "imageurl":"http://brødkoncept.dk/lev129/ill/smaa/b7.jpg", "largeimageurl":"http://brødkoncept.dk/lev129/ill/b7.jpg"}
+      ]
+    }
 ];
