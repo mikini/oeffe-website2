@@ -8,5 +8,5 @@ echo ${MAILDIR}bestil_*
 #exit
 for f in ${MAILDIR}bestil_*; do 
   echo -e $f\\n\\n
-  cat $f |grep :| cut -d: -f2 | sed -e s/'^ '/\\t/g
+  cat $f |grep :| rev | cut -d: -f1 | rev | sed -e s/'^ '/\\t/g
 done | less
