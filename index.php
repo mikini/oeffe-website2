@@ -131,7 +131,7 @@
             <div class="col-lg-12" id="nytnyt">
                 <h3>2017-08-08</h3>
                 <p>
-                   I uge 33 præsenterer ØFFE det største udvalg noegensinde i foreningens historie med 34 forskellige varer at vælge imellem. Gå på opdagelse <a href="#bestil">i sortimentet</a> og se om noget frister.
+                   I uge 33 præsenterer ØFFE det største udvalg nogensinde i foreningens historie med 34 forskellige varer at vælge imellem. Gå på opdagelse <a href="#bestil">i sortimentet</a> og se om noget frister.
                 </p>
                 <h3>2017-07-07</h3>
                 <p>
