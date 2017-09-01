@@ -621,16 +621,22 @@
           || (daysTillDelivery==nonOrderDays && (curDate.getHours() < orderClose.getHours()))
          )
       {
-          document.getElementById('bestil-form-header').innerHTML+="Her kan du bestille varer til næste udlevering som er <strong>"+formatDate(nextDelivery)+'</strong> (uge '+nextDelivery.getWeek()+'). <br>Bestillinger modtages indtil <strong> '+formatDate(orderClose,true)+'</stromg>.';
+        found=false;
         goods.forEach(function(week)
         {
           if (week.year==nextDelivery.getFullYear() && week.week==nextDelivery.getWeek())
+          {
+            document.getElementById('bestil-form-header').innerHTML+="Her kan du bestille varer til næste udlevering som er <strong>"+formatDate(nextDelivery)+'</strong> (uge '+nextDelivery.getWeek()+').<br>Bestillinger modtages indtil <strong> '+formatDate(orderClose,true)+'</stromg>.';
             week.items.forEach(function(item){addItem(item)});
+            calculateTotalPrice();
+            document.getElementById('Udleveringsdato').value=formatDate(nextDelivery);
+            document.getElementById('Betalingsfrist').value=formatDate(orderClose);
+            document.getElementById('bestil-form').style.display='block';
+            found=true;
+          }
         });
-        calculateTotalPrice();
-        document.getElementById('Udleveringsdato').value=formatDate(nextDelivery);
-        document.getElementById('Betalingsfrist').value=formatDate(orderClose);
-        document.getElementById('bestil-form').style.display='block';
+        if (!found)
+          document.getElementById('bestil-form-header').innerHTML+="Vi arbejder i kulissen på at definere udvalget til næste udlevering som er <strong>"+formatDate(nextDelivery)+'</strong> (uge '+nextDelivery.getWeek()+'), men du må have lidt tålmodighed endnu.<br>Kig ind senere på ugen, og bestil inden <strong> '+formatDate(orderClose,true)+'</stromg>.';
       }
       else
       {
