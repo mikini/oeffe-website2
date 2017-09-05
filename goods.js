@@ -714,6 +714,7 @@ var goods=[
          ,{"name":"Squash, stor","unit":"1 stk.", "price":12}
          ,{"name":"Korianderfrø","unit":"15 g.", "price":15}
          ,{"name":"Grøn peber","unit":"stk.", "price":10}
+         ,{"name":"Chili, ret stærk","unit":"stk.", "price":4}
 
          ,{"group":"Grøntsager - Ormsiggaard-sortiment", "description":"Forskelligt biodynamiskt grønt efter sæson og udvalg fra <a href='https://www.facebook.com/Ormsiggaard'>Ormsiggaard</a> ved Forum (<a href='http://www.openstreetmap.org/directions?route=55.56223%2C8.46841%3B55.52513%2C8.43806'>7 km. fra Midtgård</a>).<br>Indholdet kunne være salater, squash, løg, bladbeder, bønner, spinat eller forskellige specialiteter som appelsintagetes og bronzefennikel (billedet viser udvalget i uge 29 som eksempel)."}
          ,{"name":"Ormsiggaard, lille sortiment","unit":"stk.", "price":55, "imagebase":"ormsiggaard_uge29_lille"}
