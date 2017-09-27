@@ -814,15 +814,12 @@ var goods=[
 
          ,{"group":"Grøntsager - Æblehøjen", "description":"Økologiske, dyrket biodynamisk men endnu ikke certificeret, og lokale varer fra Æblehøjen ved Ligéa og Kim mellem Årre og Fåborg (<a href='http://www.openstreetmap.org/directions?route=55.5657%2C8.7303%3B55.5251%2C8.4381'>25 km. fra Midtgård</a>)."}
          ,{"name":"Krydderurter","unit":"buketter", "price":15, "description":"En frisk buket krydderurter fra Æblehøjen bestående af forskellige typer efter sæson og udvalg", "imagebase":"æblehøjen_krydderurter"}
-         //,{"name":"Palmekål","unit":"250 g", "price":18, "imagebase":"æblehøjen_palmekål"}
-         ,{"name":"Agurk","unit":"1 stk.", "price":14, "imagebase":"æblehøjen_agurk"}
          ,{"name":"Tomater","unit":"400 g.", "price":22}
-         ,{"name":"Kartofler, sort: Bellinda","unit":"1 kg.", "price":16}
-         ,{"name":"Kartofler, sort: Jelly","unit":"1 kg.", "price":16}
          ,{"name":"Squash, lille","unit":"1 stk.", "price":9}
          ,{"name":"Squash, stor","unit":"1 stk.", "price":12}
          ,{"name":"Korianderfrø","unit":"15 g.", "price":15}
          ,{"name":"Grøn peber","unit":"stk.", "price":10}
+         ,{"name":"Rød peber","unit":"stk.", "price":10}
          ,{"name":"Chili, ret stærk","unit":"stk.", "price":4}
 
          ,{"group":"Grøntsager - Ormsiggaard-sortiment", "description":"Forskelligt biodynamiskt grønt efter sæson og udvalg fra <a href='https://www.facebook.com/Ormsiggaard'>Ormsiggaard</a> ved Forum (<a href='http://www.openstreetmap.org/directions?route=55.56223%2C8.46841%3B55.52513%2C8.43806'>7 km. fra Midtgård</a>).<br>Indholdet kunne være salater, squash, løg, bladbeder, bønner, spinat eller forskellige specialiteter som appelsintagetes og bronzefennikel (billedet viser udvalget i uge 29 som eksempel)."}
