@@ -842,10 +842,10 @@ var goods=[
          ,{"name":"Æbler,  sort: Aroma","unit":"1 kg.", "price":16}
 
          ,{"group":"Halvfærdigt brød - BRØDkoncept", "description":"Økologiske brødprodukter af stenmølle-malet mel, surdej og koldhævet fra <a href='http://brødkoncept.dk/'>BRØDkoncept</a> ved Aulum, Herning (<a href='http://www.openstreetmap.org/directions?route=56.2618%2C8.7846%3B55.5251%2C8.4381'>93 km. fra Midtgård</a>, fragtes af PostNord). Skal færdigbages ca. 20 minutter efter anvisning på emballagen."}
-         ,{"name":"Hvedebrød","unit":"stk", "price":35, "imageurl":"http://brødkoncept.dk/lev129/ill/smaa/b1.jpg", "largeimageurl":"http://brødkoncept.dk/lev129/ill/b1.jpg"}
-         ,{"name":"100% Speltbrød", "description":"bagt udelukkende med speltmel", "imageurl":"http://brødkoncept.dk/lev129/ill/smaa/b4.jpg", "largeimageurl":"http://brødkoncept.dk/lev129/ill/b4.jpg", "unit":"stk", "price":45}
-         ,{"name":"Rugbrød","unit":"stk", "price":35, "imageurl":"http://brødkoncept.dk/lev129/ill/smaa/b6.jpg", "largeimageurl":"http://brødkoncept.dk/lev129/ill/b6.jpg"}
-         ,{"name":"Fuldkornsboller, 6 stk.","unit":"poser", "price":35, "imageurl":"http://brødkoncept.dk/lev129/ill/smaa/b7.jpg", "largeimageurl":"http://brødkoncept.dk/lev129/ill/b7.jpg"}
+         ,{"name":"Hvedebrød","unit":"stk", "price":35}
+         ,{"name":"100% Speltbrød", "description":"bagt udelukkende med speltmel", "unit":"stk", "price":45}
+         ,{"name":"Rugbrød","unit":"stk", "price":35}
+         ,{"name":"Fuldkornsboller, 6 stk.","unit":"poser", "price":35}
       ]
     }
 ];
