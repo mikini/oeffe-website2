@@ -805,12 +805,10 @@ var goods=[
          ,{"name":"Løg","unit":"3 stk.", "price":11, "imagebase":"vardeådal_løg"}
          ,{"name":"Løg, røde","unit":"3 stk.", "price":11}
          ,{"name":"Kartofler, sort: Sava","unit":"1 kg.", "price":11}
-         ,{"name":"Squash","unit":"1 stk.", "price":6}
          ,{"name":"Rødbeder","unit":"5 stk.", "price":11}
-         ,{"name":"Hokkaido græskar","unit":"stk.", "price":22}
-         ,{"name":"Asie","unit":"stk.", "price":11}
          ,{"name":"Porre","unit":"stk.", "price":6}
-         ,{"name":"Dildkrone","unit":"stk.", "price":4}
+         ,{"name":"Pastinakker","unit":"stk.", "price":6}
+         ,{"name":"Halloweengræskar","unit":"stk.", "price":32}
 
          ,{"group":"Grøntsager - Æblehøjen", "description":"Økologiske, dyrket biodynamisk men endnu ikke certificeret, og lokale varer fra Æblehøjen ved Ligéa og Kim mellem Årre og Fåborg (<a href='http://www.openstreetmap.org/directions?route=55.5657%2C8.7303%3B55.5251%2C8.4381'>25 km. fra Midtgård</a>)."}
          ,{"name":"Krydderurter","unit":"buketter", "price":15, "description":"En frisk buket krydderurter fra Æblehøjen bestående af forskellige typer efter sæson og udvalg", "imagebase":"æblehøjen_krydderurter"}
