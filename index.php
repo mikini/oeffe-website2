@@ -92,32 +92,6 @@
         </div>
     </header>
 
-    <!-- Hvad er Section -->
-    <section id="om">
-        <div class="container">
-            <div class="row">
-                <div class="col-lg-12 text-center">
-                    <h2>Hvad er ØFFE?</h2>
-                    <hr class="star-primary">
-                </div>
-            </div>
-            <div class="row">
-                <div class="col-lg-12">
-                    <p>
-                        Økologisk FødevareFællesskab Esbjerg er en forening af forbrugere i Esbjerg og omegn, der ønsker øgede muligheder for at aftage lokalt producerede økologiske fødevarer.
-                    </p>
-                    <p>
-                        Som medlem har man mulighed for at bestille friske grøntsager og andre varer til udlevering hver 14. dag. Udlevering sker på torsdage i ulige uger fra ØFFE's fødevarekontrollerede lokaler på <a href="http://myrthue.esbjergkommune.dk/midtgaard.aspx">Midtgård</a> eller et af 3 andre udleveringssteder i Esbjerg.
-                    </p>
-                    <p>
-                        Foreningen drives udelukkende af dens medlemmer i fællesskab, og på en så åben og transparent måde som muligt. Dermed er det også en forudsætning for foreningens eksistens, at der er tilpas mange medlemmer der ønsker at bidrage med deres arbejdskraft til dette.
-                    </p>
-                    <img style="display: block; margin: 0 auto;" class="img-rounded" src="ØFFE pose, lille.jpg" alt="Eksempel på varer fra ØFFE; persille, kartofler, gulerødder, løg, bolche-bede">
-                </div>
-            </div>
-        </div>
-    </section>
-
     <!-- Nyt Section -->
     <section id="nyt">
         <div class="container">
@@ -129,6 +103,15 @@
             </div>
         <div class="row">
             <div class="col-lg-12" id="nytnyt">
+                <h3>2017-10-25</h3>
+                <p>
+                    ØFFE's medlemmer har på en ekstraordinær generalforsamling besluttet at nedlægge foreningen. Vi ØFFE's forhåbentligt ved i andre økologiske sammenhænge.
+                </p>
+        <p>
+            <a id="nytknp" onclick="var glnyt=getElementById('gammelnyt'); glnyt.style.display=(glnyt.style.display=='none'?'block':'none');getElementById('nytknp').innerHTML=(glnyt.style.display=='none'?'Se tidligere nyheder':'Luk tidligere nyheder')">Se tidligere nyheder</a>
+        </p>
+      </div>
+      <div id="gammelnyt" class="col-lg-12" style="display:none">
                 <h3>2017-08-08</h3>
                 <p>
                    I uge 33 præsenterer ØFFE det største udvalg nogensinde i foreningens historie med 34 forskellige varer at vælge imellem. Gå på opdagelse <a href="#bestil">i sortimentet</a> og se om noget frister.
@@ -137,11 +120,6 @@
                 <p>
                    Udvalget tiltager langsomt men støt, og vi glæder os over sommerens komme. ØFFE planlægger en fællestur til <a href="http://www.forumlund.dk/">Forumlund</a> for at plukke solbær sidst i juli. Hvis du er interesseret i at deltage, meld venligst tilbage på <a href="mailto:oeffesbjerg@gmail.com?subject=Solbær er bare dejlige">oeffesbjerg@gmail.com</a> eller giv lyd via <a href="https://www.facebook.com/OEFFE.Esbjerg/">Facebook</a>. Se også <a href="https://www.facebook.com/OEFFE.Esbjerg/posts/306699113124853">opslag angående turen på Facebook</a>.
                 </p>
-        <p>
-            <a id="nytknp" onclick="var glnyt=getElementById('gammelnyt'); glnyt.style.display=(glnyt.style.display=='none'?'block':'none');getElementById('nytknp').innerHTML=(glnyt.style.display=='none'?'Se tidligere nyheder':'Luk tidligere nyheder')">Se tidligere nyheder</a>
-        </p>
-      </div>
-      <div id="gammelnyt" class="col-lg-12" style="display:none">
                 <h3>2017-06-08</h3>
                 <p>
                     Sortimentet til udleveringen i uge 25 (torsdag d. 22/6-2017) vil indeholde en spændende nyhed, nemlig 4 varianter af økologisk brød fra <a href="http://brødkoncept.dk/">BRØDkoncept</a> i Aulum. BRØDkoncept går op i traditionelt håndværk og processer, blandt andet ved brug af stenmølle-malet mel, surdej og koldhævning. Hos ØFFE ser vi frem til at stifte nærmere bekendtskab med produkterne.
@@ -191,160 +169,6 @@
               </div>
             </div>
         </div>
-    </section>
-
-    <!-- Bliv medlem Section -->
-    <!--    <section class="success" id="about"> -->
-    <section id="blivmedlem">
-        <div class="container">
-            <div class="row">
-                <div class="col-lg-12 text-center">
-                    <h2>Bliv medlem</h2>
-                    <hr class="star-primary">
-                </div>
-            </div>
-            <div class="row">
-                <div class="col-lg-4 col-lg-offset-2">
-		  <p>Alle interesserede kan optages som medlem i foreningen ØFFE (se <a href="#vedtægter">Vedtægter</a>). Da ØFFE er et fællesskab hvis aktiviteter vi skaber og driver sammen, og der hverken er ansatte eller profit som formål, er den eneste tilgængelige arbejdskraft medlemmernes egen. Derfor kan ØFFE kun fungere, hvis man som medlem bidrager til driften af foreningen. Dette kunne f.eks. være som hjælp til administration, bestilling, afhentning, udlevering o.l. Se mere om organiseringen af driften under <a href="#arbejdsgrupper">Arbejdsgrupper</a>.</p>
-                </div>
-                <div class="col-lg-4">
-		  <p>Optagelse som medlem forudsætter betaling af et årligt kontingent som pt. er 100 kr. Kontingentet dækker et kalenderår, og ved indmelding i løbet af året forfalder årets fulde kontingent til betaling ved indmeldelsen.</p>
-		  <p>Du anmoder om medlemsskab ved at udfylde nedenstående formular og betale kontingentet for indeværende år. Kontingentbetalingen skal ske via en af metoderne angivet under <a href="#betaling">Betaling</a>, sørg venligst for at dit navn fremgår af betalingen. Herefter vil du, når du er oprettet som medlem og din betaling er registreret, modtage en email med dit medlemsnummer. Forvent op til en uges ekspeditionstid.</p>
-                </div>
-	    </div>
-	    <div class="row">
-                <div class="col-lg-12 text-center">
-		  <p>
-		    <button onclick="var form=getElementById('indmeld-form'); form.style.display=(form.style.display=='none'?'block':'none');">Indmeldingsformular</button>
-		  </p>
-		</div>
-	    </div>
-	    <div class="row">
-            <div class="col-lg-12 text-center" id="indmeld-form" style="display:none">
-              <form method="post" action="mail.php" onsubmit="return validateSignup();">
-                <input type="hidden" name="type" value="indmeld">
-                <p>
-                  <label>Fornavn: <br><input type="text" id="Fornavn" name="Fornavn"></label><br>
-                  <label>Efternavn: <br><input type="text" id="Efternavn" name="Efternavn"></label><br>
-                  <label>Adresse: <br><input type="text" id="Adresse" name="Adresse"></label><br>
-                  <label>Postnummer: <br><input type="text" id="Postnummer" name="Postnummer" value="6700"></label><br>
-                  <label>By: <br><input type="text" id="By" name="By" value="Esbjerg"></label><br>
-                  <label>Telefonnummer: <br><input type="text" id="Telefon" name="Telefon"></label><br>
-                  <label>Email: <br><input type="text" id="Email" name="Email"></label><br>
-                  <input type="submit" value="Bliv medlem">
-                </p>
-              </form>
-            </div>
-          </div>
-        </div>
-    </section>
-
-    <!-- Bestilling Section -->
-    <section id="bestil">
-        <div class="container">
-          <div class="row">
-            <div class="col-lg-12 text-center">
-              <h2>Bestilling</h2>
-              <hr class="star-primary">
-            </div>
-          </div>
-          <div class="row">
-            <div class="col-lg-12 text-center">
-                <p id="bestil-form-header"></p>
-            </div>
-          </div>
-          <div class="row">
-            <div class="col-lg-12 text-center" id="bestil-form" style="display:none">
-              <form method="post" action="mail.php" onsubmit="return validateOrder();">
-                <input type="hidden" name="type" value="bestil">
-                <input type="hidden" id="Udleveringsdato" name="Udleveringsdato" value="">
-                <input type="hidden" id="Betalingsfrist" name="Betalingsfrist" value="">
-                <p>
-                  <label>Medlemsnummer: <input type="text" id="Medlemsnummer" name="Medlemsnummer" size="5"></label><br>
-                  <label>Kvitteringsemail: <input type="text" id="Kvitteringsemail" name="Kvitteringsemail" size="20"></label><br>
-                  <label>Udleveringssted:
-                    <select id="Udleveringssted" name="Udleveringssted">
-                      <option value="Midtgård - kl. 16:00-17:30 (Ravnsbjergvej 6, 6710 Esbjerg V)" selected>Midtgård - kl. 16:00-17:30 (Ravnsbjergvej 6, 6710 Esbjerg V)</option>
-                      <option value="Esbjerg Ø - kl. 18:00-20:00 (Holger Drachmanns Alle 16, 6700 Esbjerg)">Esbjerg Ø - kl. 18:00-20:00 (Holger Drachmanns Alle 16, 6700 Esbjerg)</option>
-                      <option value="Hjerting - kl. 18:00-20:00 (Styrmandsvænget 236, 6710 Esbjerg V)">Hjerting - kl. 18:00-20:00 (Styrmandsvænget 236, 6710 Esbjerg V)</option>
-                      <option value="Tjæreborg - kl. 17:00-20:00 (Blichers Kro - Krostuen, Tjæreborg Stationsvej 21, 6731 Tjæreborg)">Tjæreborg - kl. 17:00-20:00 (Blichers Kro - Krostuen, Tjæreborg Stationsvej 21, 6731 Tjæreborg)</option>
-                    </select>
-                  </label>
-                  <h3>Samlet pris <input type="text" value="0" style="width: 5em" id="Samlet pris2" name="Samlet pris2" disabled readonly>kr.</h3>
-                  <br>
-                  <div id="dynItems"></div>
-                  <br>
-                  <h3>Samlet pris <input type="text" value="0" style="width: 5em" id="Samlet pris" name="Samlet pris" readonly>kr.</h3>
-                  <br>
-                  <input type="reset" value="Fortryd">
-                  <input type="submit" value="Bestil">
-                </p>
-              </form>
-              <p>
-                  Ved bestilling modtager du en email med en kvittering og yderligere instruktioner på den kvitteringsemail du angiver ovenfor.
-              </p>
-            </div>
-          </div>
-
-          <div class="row">
-              <div class="col-lg-12">
-                  <p>
-                      Bestillinger kan foretages indtil søndag før udlevering (dvs. i lige uger) kl. 18, dine varer vil så være klar på det valgte udleveringssted den efterfølgende torsdag i det tidsrum der er angivet i listen ovenfor.
-                  </p>
-                  <p>
-                      Vi forventer på sigt at opbygge en reel webbutik, men indtil den er i drift sker bestilling ved at du bruger formularen ovenfor til at definere din ordre, og derefter manuelt overfører det samlede beløb via en af de under <a href="#betaling">betaling</a> angivne metoder.
-                  </p>
-              </div>
-          </div>
-      </div>
-    </section>
-
-    <!-- Arbejdsgrupper Section -->
-    <section id="arbejdsgrupper">
-        <div class="container">
-            <div class="row">
-                <div class="col-lg-12 text-center">
-                    <h2>Arbejdsgrupper</h2>
-                    <hr class="star-primary">
-                </div>
-            </div>
-            <div class="row">
-              <div class="col-lg-12">
-		<p>
-		  Det frivillige arbejde i ØFFE er organiseret i følgende arbejdsgrupper. Typisk foregår det konkrete arbejde ikke så separaret som gruppeopdelingen giver indtryk af, men ligeså meget på tværs af grupperne blandt de medlemmer der har tid, lyst og lejlighed på det pågældende tidspunkt.
-		</p>
-		<h3>Logistik/indkøb</h3>
-		<p>
-		  <em>Koordinator:</em> Ligéa Carpentier<br>
-		  Har kontakt med producenter, planlægger indkøb ud fra bestillinger, sørger for at varer bliver bragt til Midtgård for pakning.
-		</p>
-		<h3>Butik</h3>
-		<p>
-		  <em>Koordinator:</em> Birthe Elisabeth Christensen<br>
-		  På udleveringsdage sørger for at modtage og pakke varer på Midtgård, samt udlevere varer til medlemmer på udleveringsstederne.
-		</p>
-		<h3>Kommunikation</h3>
-		<p>
-		  <em>Koordinator:</em> Mikkel Kirkgaard Nielsen<br>
-		  Sørger for hjemmeside, respons på email og Facebook.
-		</p>
-		<h3>Økonomi</h3>
-		<p>
-		  <em>Koordinator:</em> Lissi Lynghede<br>
-		  Sørger for de mere formelle forhold omkring økonomi, regnskab, moms mm.
-		</p>
-		<h3>Arrangementer</h3>
-		<p>
-		  <em>Koordinator:</em> Catja Keldsen<br>
-		  Planlægger og gennemfører arrangementer internt i ØFFE og ved ØFFE's deltagelse i eksterne begivenheder (høstmarked mm).
-		</p>
-		<h3>Vagtplan</h3>
-		<p>
-		  <a href="https://docs.google.com/spreadsheets/d/1q4PP7PwrlwjWE7fnIZGrY9fLvLWueL0otKDgPj9-BuM">Vagtplanen for udlevering</a> ligger i Google Docs, sammen med vejledninger for de enkelte vagttyper. Skriv dig endelig på opgaver hvis du har tid og lyst til at hjælpe.
-		</p>
-	      </div>
-	    </div>
-	</div>
     </section>
 
     <!-- Forening Section -->
