@@ -105,7 +105,7 @@
             <div class="col-lg-12" id="nytnyt">
                 <h3>2017-10-25</h3>
                 <p>
-                    ØFFE's medlemmer har på en ekstraordinær generalforsamling besluttet at nedlægge foreningen. Vi ØFFE's forhåbentligt ved i andre økologiske sammenhænge.
+                    ØFFE's medlemmer har på en ekstraordinær generalforsamling besluttet at nedlægge foreningen i sin nuværende form. Samtidig er det planen, at 'Det Økologiske Fællesskab' skal bestå: Følg med her på siden, samt på Facebook, hvor vi løbende vil informere om processen.
                 </p>
         <p>
             <a id="nytknp" onclick="var glnyt=getElementById('gammelnyt'); glnyt.style.display=(glnyt.style.display=='none'?'block':'none');getElementById('nytknp').innerHTML=(glnyt.style.display=='none'?'Se tidligere nyheder':'Luk tidligere nyheder')">Se tidligere nyheder</a>
